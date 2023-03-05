@@ -37,10 +37,24 @@ public class Pasajero {
 	
 
 	
+	
+	//METODO TOSTRING
+	@Override
+	public String toString() {
+		return "Pasajero [passengerId=" + passengerId + ", survived=" + survived + ", pclass=" + pclass + ", age=" + age
+				+ ", name=" + name + ", ticketN=" + ticketN + ", cabin=" + cabin + ", Sex=" + Sex + ", boardingTime="
+				+ boardingTime + "]";
+	}
+
+	
+	
+	
 	//GETTERS Y SETTERS
 	public Integer getPassengerId() {
 		return passengerId;
 	}
+
+
 
 	public void setPassengerId(Integer passengerId) {
 		this.passengerId = passengerId;
