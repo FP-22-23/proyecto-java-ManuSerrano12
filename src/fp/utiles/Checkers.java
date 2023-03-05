@@ -1,9 +1,5 @@
 package fp.utiles;
 
-/**
- * @author reinaqu Clase de utilidad con m�todos para facilitar la gesti�n
- *         de restricciones.
- */
 public class Checkers {
 
 	/**
