@@ -2,6 +2,8 @@ package fp.pasajero;
 
 import java.time.LocalTime;
 
+import fp.common.Genero;
+
 public class Pasajero {
 	
 	//ATRIBUTOS
@@ -15,8 +17,6 @@ public class Pasajero {
 	//CONSTRUCTOR Y RESTRICCIONES
 	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, String ticketN, 
 			String cabin, Genero sex, LocalTime boardingTime) {
-		
-		
 		this.passengerId = passengerId;
 		this.survived = survived;
 		this.pclass = pclass;
@@ -26,7 +26,6 @@ public class Pasajero {
 		this.cabin = cabin;
 		this.Sex = sex;
 		this.boardingTime = boardingTime;
-		
 	}
 	
 	
