@@ -1,8 +1,10 @@
 package fp.pasajero;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 import fp.common.Genero;
+import fp.utiles.Checkers;
 
 public class Pasajero {
 	
@@ -17,6 +19,10 @@ public class Pasajero {
 	//CONSTRUCTOR Y RESTRICCIONES
 	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, String ticketN, 
 			String cabin, Genero sex, LocalTime boardingTime) {
+		
+		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
+				age <= 40 && age >= 25);
+		
 		this.passengerId = passengerId;
 		this.survived = survived;
 		this.pclass = pclass;
