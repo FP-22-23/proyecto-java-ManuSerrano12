@@ -8,8 +8,9 @@ import fp.pasajero.Pasajero;
 public class PasajeroTest {
 
 	public static void main(String[] args) {
-		Pasajero p1 = new Pasajero(1,"Manuel", true ,1,30, "C8292", "B11", Genero.MALE, LocalTime.of(12, 22, 11));
+		Pasajero p1 = new Pasajero(1,"Manuel", true ,1,28, "C8292", "B11", Genero.MALE, LocalTime.of(12, 22, 11));
 		System.out.println(p1.toString());
+		System.out.println(" \n" +p1.habitacion());
 		System.out.println("\nEl pasajero embarcó a las " + p1.getHourBoarding());
 	}
 

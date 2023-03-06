@@ -22,6 +22,8 @@ public class Pasajero {
 		
 		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
 				age <= 40 && age >= 25);
+		Checkers.check("La persona tiene que haber embarcado entre las 12:00 y las 22:00", 
+				boardingTime.isAfter(LocalTime.of(10,00,00)) && boardingTime.isBefore(LocalTime.of(22, 00, 00)));
 		
 		this.passengerId = passengerId;
 		this.survived = survived;
@@ -34,13 +36,17 @@ public class Pasajero {
 		this.boardingTime = boardingTime;
 	}
 	
+	public String habitacion() {
+		return "El pasajero " + name + " con ID " + passengerId + " se hospedaba en la habitacion " + cabin;
+	}
+	
 	
 	//PROPIEDADES DERIVADAS
 	public Integer getHourBoarding() {
 		return this.boardingTime.getHour();
 	}
 	
-
+	
 	
 	
 	//METODO TOSTRING
