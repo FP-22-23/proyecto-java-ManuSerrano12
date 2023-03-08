@@ -1,7 +1,7 @@
 package fp.pasajero;
 
-import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Objects;
 
 import fp.common.Genero;
 import fp.utiles.Checkers;
@@ -36,6 +36,21 @@ public class Pasajero {
 		this.boardingTime = boardingTime;
 	}
 	
+	
+	//CONSTRUCTOR CON 1 SOLO ARGUMENTO
+	public Pasajero(String name) {
+		this.passengerId = null;
+		this.survived = null;
+		this.pclass = null;
+		this.age = null;
+		this.name = name;
+		this.ticketN = null;
+		this.cabin = null;
+		this.Sex = null;
+		this.boardingTime = null;
+	}
+	
+
 	public String habitacion() {
 		return "El pasajero " + name + " con ID " + passengerId + " se hospedaba en la habitacion " + cabin;
 	}
@@ -64,8 +79,6 @@ public class Pasajero {
 	public Integer getPassengerId() {
 		return passengerId;
 	}
-
-
 
 	public void setPassengerId(Integer passengerId) {
 		this.passengerId = passengerId;
@@ -134,7 +147,30 @@ public class Pasajero {
 	public void setBoardingTime(LocalTime boardingTime) {
 		this.boardingTime = boardingTime;
 	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(Sex, age, boardingTime, cabin, name, passengerId, pclass, survived, ticketN);
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Pasajero other = (Pasajero) obj;
+		return Sex == other.Sex && Objects.equals(age, other.age) && Objects.equals(boardingTime, other.boardingTime)
+				&& Objects.equals(cabin, other.cabin) && Objects.equals(name, other.name)
+				&& Objects.equals(passengerId, other.passengerId) && Objects.equals(pclass, other.pclass)
+				&& Objects.equals(survived, other.survived) && Objects.equals(ticketN, other.ticketN);
+	}
 	
+
 	
 	
 	

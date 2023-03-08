@@ -14,7 +14,7 @@ public class Checkers {
 		for (int i = 0; i < parametros.length; i++) {
 			if (parametros[i] == null) {
 				throw new IllegalArgumentException(Thread.currentThread().getStackTrace()[2].getClassName() + "."
-						+ Thread.currentThread().getStackTrace()[2].getMethodName() + ": el par�metro " + (i + 1)
+						+ Thread.currentThread().getStackTrace()[2].getMethodName() + ": el parametro " + (i + 1)
 						+ " es nulo");
 			}
 		}
