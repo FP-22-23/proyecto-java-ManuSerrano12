@@ -1,12 +1,19 @@
 package fp.pasajero;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Objects;
 
 import fp.common.Genero;
 import fp.utiles.Checkers;
 
-public class Pasajero {
+/**
+ * @author Manuel
+ *
+ */
+public class Pasajero implements Comparable<Pasajero>{
 	
 	//ATRIBUTOS
 	private Integer passengerId;
@@ -50,15 +57,18 @@ public class Pasajero {
 		this.boardingTime = null;
 	}
 	
-
-	public String habitacion() {
-		return "El pasajero " + name + " con ID " + passengerId + " se hospedaba en la habitacion " + cabin;
-	}
 	
 	
 	//PROPIEDADES DERIVADAS
 	public Integer getHourBoarding() {
 		return this.boardingTime.getHour();
+	}
+	
+	
+	//LISTA
+	public List<Pasajero> listaDePasajeros() {
+		List<Pasajero> listaDePasajeros = new ArrayList<Pasajero>();
+		return listaDePasajeros;
 	}
 	
 	
@@ -169,8 +179,45 @@ public class Pasajero {
 				&& Objects.equals(passengerId, other.passengerId) && Objects.equals(pclass, other.pclass)
 				&& Objects.equals(survived, other.survived) && Objects.equals(ticketN, other.ticketN);
 	}
-	
 
+
+	@Override    
+	public int compareTo(Pasajero o) {
+		int r;
+		if (o == null) {
+			throw new NullPointerException();
+		}         
+		r = getName().compareTo(o.getName());
+		if (r == 0) {
+			r = getPassengerId().compareTo(o.getPassengerId());
+			if (r == 0) {
+				r = getSurvived().compareTo(o.getSurvived());
+				if (r == 0) {
+					r = getName().compareTo(o.getName());
+					if (r == 0) {
+						r = getAge().compareTo(o.getAge());
+						if (r == 0) {
+							r = getPclass().compareTo(o.getPclass());
+							if (r == 0) {
+								r = getCabin().compareTo(o.getCabin());
+								if (r == 0) {
+									r = getSex().compareTo(o.getSex());
+									if (r == 0) {
+										r = getTicketN().compareTo(o.getTicketN());
+										if (r == 0) {
+											r = getBoardingTime().compareTo(o.getBoardingTime());
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		return r;
+	}
+	
 	
 	
 	
