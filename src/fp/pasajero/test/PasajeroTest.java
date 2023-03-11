@@ -11,7 +11,7 @@ public class PasajeroTest {
 	public static void main(String[] args) {
 		
 		//CONSTRUCTORES
-		Pasajero p1 = new Pasajero(21,"Manuel", true ,1,28, "C8292", "B11", Genero.MALE, LocalTime.of(12, 22, 11) , "abrigo,botas,sombrero");
+		Pasajero p1 = new Pasajero(21,"Manuel", true ,1,28, "B11",300, Genero.MALE, LocalTime.of(12, 22, 11) , "abrigo,botas,sombrero");
 		Pasajero p2 = new Pasajero("Manuel");
 		Pasajero p3 = new Pasajero("Manuel");
 		
@@ -31,7 +31,7 @@ public class PasajeroTest {
 		System.out.println("Clase del pasajero:" + p1.getPclass());
 		System.out.println("Edad del pasajero:" + p1.getAge());
 		System.out.println("Nombre del pasajero:" + p1.getName());
-		System.out.println("Ticket del pasajero:" + p1.getTicketN());
+		System.out.println("Coste del Ticket del pasajero:" + p1.getTicketCost());
 		System.out.println("Cabina del pasajero:" + p1.getCabin());
 		System.out.println("Genero del pasajero:" + p1.getSex());
 		System.out.println("Hora de abordaje del pasajero:" + p1.getBoardingTime());

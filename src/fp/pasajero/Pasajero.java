@@ -19,15 +19,15 @@ import fp.utiles.Checkers;
 public class Pasajero implements Comparable<Pasajero>{
 	private Integer passengerId;
 	private Boolean survived;
-	private Integer pclass, age;
-	private String name, ticketN,cabin;
+	private Integer pclass, age,ticketCost;
+	private String name,cabin;
 	private Genero Sex;
 	private LocalTime boardingTime;
 	private List <String> clothes;
 
 	//CONSTRUCTOR Y RESTRICCIONES
-	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, String ticketN, 
-			String cabin, Genero sex, LocalTime boardingTime, String clothes) {
+	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, 
+			String cabin,Integer ticketCost, Genero sex, LocalTime boardingTime, String clothes) {
 		
 		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
 				age <= 40 && age >= 25);
@@ -39,8 +39,8 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.pclass = pclass;
 		this.age = age;
 		this.name = name;
-		this.ticketN = ticketN;
 		this.cabin = cabin;
+		this.ticketCost = ticketCost;
 		this.Sex = sex;
 		this.boardingTime = boardingTime;
 		this.setClothes(Arrays.asList(clothes.split(",")));
@@ -54,7 +54,7 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.pclass = null;
 		this.age = null;
 		this.name = name;
-		this.ticketN = null;
+		this.ticketCost = null;
 		this.cabin = null;
 		this.Sex = null;
 		this.boardingTime = null;
@@ -80,11 +80,11 @@ public class Pasajero implements Comparable<Pasajero>{
 	@Override
 	public String toString() {
 		return "Pasajero [passengerId=" + passengerId + ", survived=" + survived + ", pclass=" + pclass + ", age=" + age
-				+ ", name=" + name + ", ticketN=" + ticketN + ", cabin=" + cabin + ", Sex=" + Sex + ", boardingTime="
-				+ boardingTime + ", clothes=" + clothes + "]";
+				+ ", ticketCost=" + ticketCost + ", name=" + name + ", cabin=" + cabin + ", Sex=" + Sex
+				+ ", boardingTime=" + boardingTime + ", clothes=" + clothes + "]";
 	}
 
-	
+
 	//GETTERS Y SETTERS
 	public Integer getPassengerId() {
 		return passengerId;
@@ -126,12 +126,12 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.name = name;
 	}
 
-	public String getTicketN() {
-		return ticketN;
+	public Integer getTicketCost() {
+		return ticketCost;
 	}
 
-	public void setTicketN(String ticketN) {
-		this.ticketN = ticketN;
+	public void setTicketCost(Integer ticketCost) {
+		this.ticketCost = ticketCost;
 	}
 
 	public String getCabin() {
@@ -172,7 +172,7 @@ public class Pasajero implements Comparable<Pasajero>{
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(Sex, age, boardingTime, cabin, name, passengerId, pclass, survived, ticketN);
+		return Objects.hash(Sex, age, boardingTime, cabin, clothes, name, passengerId, pclass, survived, ticketCost);
 	}
 
 	//IGUALDAD
@@ -186,13 +186,13 @@ public class Pasajero implements Comparable<Pasajero>{
 			return false;
 		Pasajero other = (Pasajero) obj;
 		return Sex == other.Sex && Objects.equals(age, other.age) && Objects.equals(boardingTime, other.boardingTime)
-				&& Objects.equals(cabin, other.cabin) && Objects.equals(name, other.name)
-				&& Objects.equals(passengerId, other.passengerId) && Objects.equals(pclass, other.pclass)
-				&& Objects.equals(survived, other.survived) && Objects.equals(ticketN, other.ticketN);
+				&& Objects.equals(cabin, other.cabin) && Objects.equals(clothes, other.clothes)
+				&& Objects.equals(name, other.name) && Objects.equals(passengerId, other.passengerId)
+				&& Objects.equals(pclass, other.pclass) && Objects.equals(survived, other.survived)
+				&& Objects.equals(ticketCost, other.ticketCost);
 	}
 
 
-	
 	// ORDEN NATURAL
 	@Override    
 	public int compareTo(Pasajero o) {
@@ -212,7 +212,7 @@ public class Pasajero implements Comparable<Pasajero>{
 								if (r == 0) {
 									r = getSex().compareTo(o.getSex());
 									if (r == 0) {
-										r = getTicketN().compareTo(o.getTicketN());
+										r = getTicketCost().compareTo(o.getTicketCost());
 										if (r == 0) {
 											r = getBoardingTime().compareTo(o.getBoardingTime());
 											}
