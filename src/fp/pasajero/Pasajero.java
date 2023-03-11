@@ -2,6 +2,7 @@ package fp.pasajero;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
@@ -13,19 +14,20 @@ import fp.utiles.Checkers;
  * @author Manuel
  *
  */
+
+//DECLARACIÓN DE LAS PROPIEDADES BÁSICAS
 public class Pasajero implements Comparable<Pasajero>{
-	
-	//ATRIBUTOS
 	private Integer passengerId;
 	private Boolean survived;
 	private Integer pclass, age;
 	private String name, ticketN,cabin;
 	private Genero Sex;
 	private LocalTime boardingTime;
+	private List <String> clothes;
 
 	//CONSTRUCTOR Y RESTRICCIONES
 	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, String ticketN, 
-			String cabin, Genero sex, LocalTime boardingTime) {
+			String cabin, Genero sex, LocalTime boardingTime, String clothes) {
 		
 		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
 				age <= 40 && age >= 25);
@@ -41,6 +43,7 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.cabin = cabin;
 		this.Sex = sex;
 		this.boardingTime = boardingTime;
+		this.setClothes(Arrays.asList(clothes.split(",")));
 	}
 	
 	
@@ -55,11 +58,12 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.cabin = null;
 		this.Sex = null;
 		this.boardingTime = null;
+		this.clothes = null;
 	}
 	
 	
 	
-	//PROPIEDADES DERIVADAS
+	//PROPIEDAD DERIVADAS
 	public Integer getHourBoarding() {
 		return this.boardingTime.getHour();
 	}
@@ -72,18 +76,14 @@ public class Pasajero implements Comparable<Pasajero>{
 	}
 	
 	
-	
-	
-	//METODO TOSTRING
+	//REPRESENTACION COMO CADENA
 	@Override
 	public String toString() {
 		return "Pasajero [passengerId=" + passengerId + ", survived=" + survived + ", pclass=" + pclass + ", age=" + age
 				+ ", name=" + name + ", ticketN=" + ticketN + ", cabin=" + cabin + ", Sex=" + Sex + ", boardingTime="
-				+ boardingTime + "]";
+				+ boardingTime + ", clothes=" + clothes + "]";
 	}
 
-	
-	
 	
 	//GETTERS Y SETTERS
 	public Integer getPassengerId() {
@@ -157,6 +157,17 @@ public class Pasajero implements Comparable<Pasajero>{
 	public void setBoardingTime(LocalTime boardingTime) {
 		this.boardingTime = boardingTime;
 	}
+	
+	public List <String> getClothes() {
+		return clothes;
+	}
+
+
+	public void setClothes(List <String> clothes) {
+		this.clothes = clothes;
+	}
+	
+	
 
 
 	@Override
@@ -164,7 +175,7 @@ public class Pasajero implements Comparable<Pasajero>{
 		return Objects.hash(Sex, age, boardingTime, cabin, name, passengerId, pclass, survived, ticketN);
 	}
 
-
+	//IGUALDAD
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -181,13 +192,11 @@ public class Pasajero implements Comparable<Pasajero>{
 	}
 
 
+	
+	// ORDEN NATURAL
 	@Override    
 	public int compareTo(Pasajero o) {
-		int r;
-		if (o == null) {
-			throw new NullPointerException();
-		}         
-		r = getName().compareTo(o.getName());
+		int r = getName().compareTo(o.getName());
 		if (r == 0) {
 			r = getPassengerId().compareTo(o.getPassengerId());
 			if (r == 0) {
@@ -217,8 +226,7 @@ public class Pasajero implements Comparable<Pasajero>{
 			}
 		return r;
 	}
-	
-	
+
 	
 	
 }
