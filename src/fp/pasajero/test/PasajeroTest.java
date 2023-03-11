@@ -12,8 +12,8 @@ public class PasajeroTest {
 		
 		//CONSTRUCTORES
 		Pasajero p1 = new Pasajero(21,"Manuel", true ,1,28, "B11",300, Genero.MALE, LocalTime.of(12, 22, 11) , "abrigo,botas,sombrero");
-		Pasajero p2 = new Pasajero("Manuel");
-		Pasajero p3 = new Pasajero("Manuel");
+		Pasajero p2 = new Pasajero(982,23,"Susana",Genero.FEMALE);
+		Pasajero p3 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		
 		//METODOS SET
 		System.out.println(p1);

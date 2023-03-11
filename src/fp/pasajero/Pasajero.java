@@ -31,6 +31,8 @@ public class Pasajero implements Comparable<Pasajero>{
 		
 		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
 				age <= 40 && age >= 25);
+		Checkers.check("El precio del ticket tiene que ser positivo", 
+				ticketCost > 0);
 		Checkers.check("La persona tiene que haber embarcado entre las 12:00 y las 22:00", 
 				boardingTime.isAfter(LocalTime.of(10,00,00)) && boardingTime.isBefore(LocalTime.of(22, 00, 00)));
 		
@@ -48,15 +50,15 @@ public class Pasajero implements Comparable<Pasajero>{
 	
 	
 	//CONSTRUCTOR CON 1 SOLO ARGUMENTO
-	public Pasajero(String name) {
-		this.passengerId = null;
+	public Pasajero(Integer passengerId,Integer age, String name ,Genero sex) {
+		this.passengerId = passengerId;
 		this.survived = null;
 		this.pclass = null;
-		this.age = null;
+		this.age = age;
 		this.name = name;
 		this.ticketCost = null;
 		this.cabin = null;
-		this.Sex = null;
+		this.Sex = sex;
 		this.boardingTime = null;
 		this.clothes = null;
 	}
