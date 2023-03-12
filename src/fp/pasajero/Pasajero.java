@@ -229,6 +229,6 @@ public class Pasajero implements Comparable<Pasajero>{
 		return r;
 	}
 
-	
+	 
 	
 }
