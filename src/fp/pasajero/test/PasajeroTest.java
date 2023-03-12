@@ -18,6 +18,7 @@ public class PasajeroTest {
 		//METODOS SET
 		System.out.println(p1);
 		p1.setAge(50);
+		p1.setPclass(1);
 		p1.setName("Juan Pérez");
 		p1.setBoardingTime(LocalTime.of(22, 22, 22));
 		p1.setSurvived(false);
