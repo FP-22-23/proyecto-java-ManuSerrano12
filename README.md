@@ -1,85 +1,79 @@
 # Proyecto del Segundo Cuatrimestre Fundamentos de Programación (Curso  22/23)
-Autor/a: Nicolás Pérez Gómez  uvus: nicpergom
+Autor/a: Manuel Serrano Rubio  uvus: manserrub
 
-Trabajaremos con un dataset de datos sobre jugadores de la nba. 
-Ofrece datos sobre la nba como el salario del jugador en cuestión, 
-el nombre del jugador o su estatura.
+Trabajaremos con un dataset de datos sobre los pasajeros que viajaban en el titanic. 
+Ofrece datos sobre los pasajeros en cuestion, nombre, edad, ropa que llevaban...
 Utilizaremos una programación orientada a objetos (java) para realizar consultas sobre este dataset.
 
 
 ## Estructura de las carpetas del proyecto
 
 * **/src**: Contiene los diferentes archivos que forman parte del proyecto. Debe estar estructurado en los siguentes paquetes
-  * **fp.NBA**: Paquete que contiene los tipos del proyecto.
-  * **fp.NBA.test**: Paquete que contiene las clases de test del proyecto.
+  * **fp.pasajero**: Paquete que contiene los tipos del proyecto.
+  * **fp.pasajero.test**: Paquete que contiene las clases de test del proyecto.
   * **fp.common**: Paquete que contiene los tipos auxiliares del proyecto
   * **fp.utiles**:  Paquete que contiene las clases de utilidad. 
 * **/data**: Contiene el dataset o datasets del proyecto.
-    * **NBA19-20.csv**: Dataset de datos sobre NBA.
+    * **titanic.csv**: Dataset de datos sobre titanic.
     
 ## Estructura del *dataset*
 
-El dataset está compuesto por 11 columnas, con la siguiente descripción:
+El dataset está compuesto por 10 columnas, con la siguiente descripción:
 
-* **Salary**: de tipo Integer, representa el salario de un jugador.
-* **Player**: de tipo String, representa el nombre del jugador.
-* **DateOfBirth**: de tipo LocalDate, representa la fecha de nacimiento del jugador.
-* **Retired**: de tipo Boolean, representa si el jugador está retirado o no.
-* **Height**: de tipo Double, representa la estatura del jugador.
-* **Team**: de tipo String, representa el equipo en el que ha jugado.
-* **Copa**: de tipo Boolean, representa si tiene una copa o no.
-* **Weight**: de tipo Double, representa el peso del jugador.
-* **Nationality**: de tipo String, representa la nacionalidad del jugador.
-* **Position**: de tipo Enumerate, representa la posición del jugador.
-* **equiposHaJugado**: de tipo List<String>, representa una lista de los equipos en los que ha jugado ese jugador.
+* **PassengerId**: de tipo Integer, representa la ID del pasajero.
+* **Name**: de tipo String, representa el nombre del pasajero.
+* **BoardingTime**: de tipo LocalTime, representa la hora de embarque del pasajero.
+* **Survived**: de tipo Boolean, representa si el pasajero sobrevivio o no.
+* **Age**: de tipo Integer, representa la edad del pasajero.
+* **Cabin**: de tipo String, representa la cabina en la que viajaba el pasajero.
+* **Pclass**: de tipo Integer, representa la clase en la que viajaba el pasajero.
+* **TicketCost**: de tipo Integer, el precio del billete comprado por el pasajero.
+* **Sex**: de tipo Enumerate, representa el genero del pasajero.
+* **Clothes**: de tipo List<String>, representa una lista con la ropa que llevaban los pasajeros.
 	
-	Además, el dataset está formado por 15 filas. La primera es la cabecera y las demás son los registros. 
+	Además, el dataset está formado por 891 filas. La primera es la cabecera y las demás son los registros. 
 
 ## Tipos implementados
 
 
 
 ### Tipo Base
-En el tipo base del proyecto (NBA.java), se declaran las propiedades básicas del tipo, las propiedades derivadas, las funciones auxiliares, los métodos getters y setters, los constructores, los checkers, el método de igualdad, el método de orden natural y la representación como cadena.
+En el tipo base del proyecto (pasajeros.java), se declaran las propiedades básicas del tipo, las propiedades derivadas, las funciones auxiliares, los métodos getters y setters, los constructores, los checkers, el método de igualdad, el método de orden natural y la representación como cadena.
 
 **Propiedades**:
 
-- salary, de tipo Integer, consultable y modificable. 
-- player, de tipo String, consultable. 
-- cumpleaños, de tipo LocalDate, consultable.
-- retirado, de tipo Boolean, consultable.
-- altura, de tipo Double, consultable.
-- team, de tipo String, consultable y modificable.
-- copa, de tipo Boolean, consultable.
-- peso, de tipo Double, consultable.
-- nacionalidad, de tipo String, consultable.
-- position, de tipo Posicion, consultable.
-- equiposHaJugado, de tipo Lista, consultable y modificable.
+- PassengerId, de tipo Integer,  consultable y modificable.
+- Name, de tipo String,  consultable y modificable.
+- BoardingTime, de tipo LocalTime, consultable y modificable.
+- Survived, de tipo Boolean, consultable y modificable.
+- Age, de tipo Integer, consultable y modificable.
+- Cabin, de tipo String, consultable y modificable.
+- Pclass, de tipo Integer, consultable y modificable.
+- TicketCost, de tipo Integer, consultable y modificable.
+- Sex, de tipo Enumerate, consultable y modificable.
+- Clothes, de tipo List<String>, consultable y modificable.
+
 **Constructores**: 
 
 - C1: Un constructor con todas las propiedades del tipo.
-- C2: Un constructor con las propiedades: salary, player, altura, team, peso, nacionalidad, position.
-- C3: Un constructor con la propiedad: cumpleaños.
+- C2: Un constructor con las propiedades: passengerId, name, sex y age.
 
 **Restricciones**:
  
-- R1: La altura debe ser positiva, altura >0
-- R2: El salario del jugador debe ser 0 o mayor que 0, salary >=0
-- R3: El peso debe ser positivo, peso >0
-- R4: La fecha del cumpleaños debe ser anterior a la fecha de hoy, cumpleaños.isBefore(LocalDate.now())
+- R1: La persona tiene que tener entre 25 y 40 años, age <= 40 && age >= 25
+- R2: El precio del ticket tiene que ser positivo, ticketCost > 0
+- R3: La persona tiene que haber embarcado entre las 12:00 y las 22:00, boardingTime.isAfter(LocalTime.of(10,00,00)) && boardingTime.isBefore(LocalTime.of(22, 00, 00)
 
-**Criterio de igualdad**: Para que dos objetos sean iguales se tiene que cumplir que:
-	- Las nacionalidades sean iguales, el nombre del jugador, el equipo en el que juegan y la estatura.
+**Criterio de igualdad**: Para que dos objetos sean iguales se tiene que cumplir que todos los atributos lo son.
 
-**Criterio de ordenación**: Para establecer el orden natural, primero, comparamos por altura, posteriormente por el nombre del jugador, después, por la nacionalidad y por último, por el peso.
+**Criterio de ordenación**: Para establecer el orden natural, primero, comparamos por el name, posteriormente por el ID del pasajero, si ha sobrevivido, la edad, la clase en la que viajaba, la cabina, el genero, el precio del ticket y por ultimo la hora de abordaje. En ese orden.
 
 **Otras operaciones**:
  
--	getEdadJugador: Calcula la edad del jugador calculando el periodo de tiempo que hay desde el dia de hoy hasta la fecha de su cumpleaños.
-- 	getCoefAlturaPeso: Calcula el coeficiente altura/peso..
+-	getHourBoarding(): Nos da la HORA exacta de abordaje, solo la hora, sin minutos ni segundos. Es una propiedad derivada.
 
 #### Tipos auxiliaress
-Este proyecto, cuenta con un tipo Enumerate llamado Posicion, que cuenta con 5 propiedades: PointGuard, ShootingGuard, Center, SmallForward, PowerForward..
+Este proyecto, cuenta con un tipo Enumerate llamado Genero, que cuenta con 2 propiedades: MALE, FEMALE..
 
 ### Factoría
 Descripción breve de la factoría.
