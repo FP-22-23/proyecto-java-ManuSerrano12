@@ -1,6 +1,7 @@
 package fp.pasajero.test;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import fp.common.Genero;
@@ -11,7 +12,9 @@ public class PasajeroTest {
 	public static void main(String[] args) {
 		
 		//CONSTRUCTORES
-		Pasajero p1 = new Pasajero(21,"Manuel", true ,1,28, "B11",300, Genero.MALE, LocalTime.of(12, 22, 11) , "abrigo,botas,sombrero");
+		List<String> ropa= new ArrayList<String>();
+		ropa.add("abrigo,botas,sombrero");
+		Pasajero p1 = new Pasajero(21,true ,1,"Manuel",Genero.MALE,28, "B11", LocalTime.of(12, 22, 11) ,300,ropa);
 		Pasajero p2 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		Pasajero p3 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		

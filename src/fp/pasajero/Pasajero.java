@@ -26,8 +26,8 @@ public class Pasajero implements Comparable<Pasajero>{
 	private List <String> clothes;
 
 	//CONSTRUCTOR Y RESTRICCIONES
-	public Pasajero(Integer passengerId, String name , Boolean survived,Integer pclass,Integer age, 
-			String cabin,Integer ticketCost, Genero sex, LocalTime boardingTime, String clothes) {
+	public Pasajero(Integer passengerId,Boolean survived, Integer pclass,String name ,Genero sex, Integer age
+			,String cabin, LocalTime boardingTime,Integer ticketCost, List<String> clothes) {
 		
 		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
 				age <= 40 && age >= 25);
@@ -45,7 +45,7 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.ticketCost = ticketCost;
 		this.Sex = sex;
 		this.boardingTime = boardingTime;
-		this.setClothes(Arrays.asList(clothes.split(",")));
+		this.clothes = clothes;
 	}
 	
 	
