@@ -23,18 +23,18 @@ public class Pasajero implements Comparable<Pasajero>{
 	private String name,cabin;
 	private Genero Sex;
 	private LocalTime boardingTime;
-	private List <String> clothes;
+
 
 	//CONSTRUCTOR Y RESTRICCIONES
 	public Pasajero(Integer passengerId,Boolean survived, Integer pclass,String name ,Genero sex, Integer age
-			,String cabin, LocalTime boardingTime,Integer ticketCost, List<String> clothes) {
+			,String cabin, LocalTime boardingTime,Integer ticketCost) {
 		
-		Checkers.check("La persona tiene que tener entre 25 y 40 años", 
-				age <= 40 && age >= 25);
-		Checkers.check("El precio del ticket tiene que ser positivo", 
-				ticketCost > 0);
-		Checkers.check("La persona tiene que haber embarcado entre las 12:00 y las 22:00", 
-				boardingTime.isAfter(LocalTime.of(10,00,00)) && boardingTime.isBefore(LocalTime.of(22, 00, 00)));
+		//Checkers.check("La persona tiene que tener entre 25 y 40 años", 
+			//	age <= 40 && age >= 25);
+		//Checkers.check("El precio del ticket tiene que ser positivo", 
+		//		ticketCost > 0);
+		//Checkers.check("La persona tiene que haber embarcado entre las 12:00 y las 22:00", 
+			//	boardingTime.isAfter(LocalTime.of(10,00,00)) && boardingTime.isBefore(LocalTime.of(22, 00, 00)));
 		
 		this.passengerId = passengerId;
 		this.survived = survived;
@@ -45,7 +45,6 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.ticketCost = ticketCost;
 		this.Sex = sex;
 		this.boardingTime = boardingTime;
-		this.clothes = clothes;
 	}
 	
 	
@@ -60,7 +59,6 @@ public class Pasajero implements Comparable<Pasajero>{
 		this.cabin = null;
 		this.Sex = sex;
 		this.boardingTime = null;
-		this.clothes = null;
 	}
 	
 	
@@ -83,7 +81,7 @@ public class Pasajero implements Comparable<Pasajero>{
 	public String toString() {
 		return "Pasajero [passengerId=" + passengerId + ", survived=" + survived + ", pclass=" + pclass + ", age=" + age
 				+ ", ticketCost=" + ticketCost + ", name=" + name + ", cabin=" + cabin + ", Sex=" + Sex
-				+ ", boardingTime=" + boardingTime + ", clothes=" + clothes + "]";
+				+ ", boardingTime=" + boardingTime +  "]";
 	}
 
 
@@ -159,22 +157,11 @@ public class Pasajero implements Comparable<Pasajero>{
 	public void setBoardingTime(LocalTime boardingTime) {
 		this.boardingTime = boardingTime;
 	}
-	
-	public List <String> getClothes() {
-		return clothes;
-	}
-
-
-	public void setClothes(List <String> clothes) {
-		this.clothes = clothes;
-	}
-	
-	
 
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(Sex, age, boardingTime, cabin, clothes, name, passengerId, pclass, survived, ticketCost);
+		return Objects.hash(Sex, age, boardingTime, cabin, name, passengerId, pclass, survived, ticketCost);
 	}
 
 	//IGUALDAD
@@ -188,7 +175,7 @@ public class Pasajero implements Comparable<Pasajero>{
 			return false;
 		Pasajero other = (Pasajero) obj;
 		return Sex == other.Sex && Objects.equals(age, other.age) && Objects.equals(boardingTime, other.boardingTime)
-				&& Objects.equals(cabin, other.cabin) && Objects.equals(clothes, other.clothes)
+				&& Objects.equals(cabin, other.cabin)
 				&& Objects.equals(name, other.name) && Objects.equals(passengerId, other.passengerId)
 				&& Objects.equals(pclass, other.pclass) && Objects.equals(survived, other.survived)
 				&& Objects.equals(ticketCost, other.ticketCost);

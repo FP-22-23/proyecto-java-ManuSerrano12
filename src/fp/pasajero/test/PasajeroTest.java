@@ -1,8 +1,6 @@
 package fp.pasajero.test;
 
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
 
 import fp.common.Genero;
 import fp.pasajero.Pasajero;
@@ -12,9 +10,7 @@ public class PasajeroTest {
 	public static void main(String[] args) {
 		
 		//CONSTRUCTORES
-		List<String> ropa= new ArrayList<String>();
-		ropa.add("abrigo,botas,sombrero");
-		Pasajero p1 = new Pasajero(21,true ,1,"Manuel",Genero.MALE,28, "B11", LocalTime.of(12, 22, 11) ,300,ropa);
+		Pasajero p1 = new Pasajero(21,true ,1,"Manuel",Genero.MALE,28, "B11", LocalTime.of(12, 22, 11) ,300);
 		Pasajero p2 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		Pasajero p3 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		
@@ -39,7 +35,6 @@ public class PasajeroTest {
 		System.out.println("Cabina del pasajero:" + p1.getCabin());
 		System.out.println("Genero del pasajero:" + p1.getSex());
 		System.out.println("Hora de abordaje del pasajero:" + p1.getBoardingTime());
-		System.out.println("Ropas que usaba el pasajero:" + p1.getClothes());
 
 		
 		//METODO DET DE LA PROPIEDAD DERIVADA

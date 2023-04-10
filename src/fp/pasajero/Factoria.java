@@ -1,17 +1,20 @@
 package fp.pasajero;
 
-import java.time.LocalDate;
+import java.io.IOException;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.stream.Stream;
 
 import fp.common.Genero;
-import fp.pasajero.Pasajero;
+import fp.utiles.Checkers;
 
 public class Factoria {
 
-		private static Pasajero parsearPasajeros(String linea) {
+		private static Pasajero parsearPasajero(String linea) {
+			Checkers.checkNoNull(linea);
 			String[] trozos=linea.split(";");
 			
 			Integer passengerId = Integer.parseInt(trozos[0].trim());
@@ -28,14 +31,22 @@ public class Factoria {
 			Genero sex = Genero.valueOf(trozos[4].toUpperCase().trim());
 			Integer age = Integer.parseInt(trozos[5].trim());
 			String cabin = trozos[6].trim();
-			LocalTime boardingTime = LocalTime.parse(trozos[7].trim());
+			LocalTime boardingTime = LocalTime.parse(trozos[7].trim(),DateTimeFormatter.ofPattern("HH:mm:ss"));
 			Integer ticketCost = Integer.parseInt(trozos[8].trim());
-			
-			List<String> clothes = new ArrayList<>();
-	        for (String valor : trozos[9]) {
-	            clothes.add(valor.trim());
-	        }
-			return new Pasajero(passengerId,survived,pClass,name,sex,age,cabin,boardingTime,ticketCost,clothes);
+			return new Pasajero(passengerId,survived,pClass,name,sex,age,cabin,boardingTime,ticketCost);
 		}
+		
+		public static ContenedorPasajero leePasajero(String rutaFichero) {
+			ContenedorPasajero res = null;
+			try {
+				Stream<Pasajero> st = Files.lines(Paths.get(rutaFichero)).skip(1).map(Factoria::parsearPasajero);
+				res = new ContenedorPasajero(st);
+			} catch(IOException e) {
+				e.printStackTrace();
+			}
+			return res;
+		}
+		
+		
 }
 
