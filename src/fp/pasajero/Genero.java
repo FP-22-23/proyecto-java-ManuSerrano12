@@ -1,4 +1,4 @@
-package fp.common;
+package fp.pasajero;
 
 public enum Genero { MALE,FEMALE
 

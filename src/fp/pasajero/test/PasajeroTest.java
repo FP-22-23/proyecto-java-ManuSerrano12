@@ -1,8 +1,10 @@
 package fp.pasajero.test;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
-import fp.common.Genero;
+import fp.pasajero.Genero;
 import fp.pasajero.Pasajero;
 
 public class PasajeroTest {
@@ -10,7 +12,11 @@ public class PasajeroTest {
 	public static void main(String[] args) {
 		
 		//CONSTRUCTORES
-		Pasajero p1 = new Pasajero(21,true ,1,"Manuel",Genero.MALE,28, "B11", LocalTime.of(12, 22, 11) ,300);
+		List<String> ropa = new ArrayList<String>();
+		ropa.add("abrigo");
+		ropa.add("camiseta");
+		
+		Pasajero p1 = new Pasajero(21,true ,1,"Manuel",Genero.MALE,28, "B11", LocalTime.of(12, 22, 11) ,300,ropa);
 		Pasajero p2 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		Pasajero p3 = new Pasajero(982,23,"Susana",Genero.FEMALE);
 		
