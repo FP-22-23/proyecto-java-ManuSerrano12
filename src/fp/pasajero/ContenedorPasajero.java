@@ -1,16 +1,15 @@
 package fp.pasajero;
 
 import java.util.ArrayList;
-
+import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fp.ajedrez.Partida;
 
 
-public class ContenedorPasajero {
+public class ContenedorPasajero implements Pasajeros{
 	
 	//ATRIBUTO
 	private List<Pasajero> passenger;
@@ -21,6 +20,9 @@ public class ContenedorPasajero {
 	}
 	public ContenedorPasajero(Stream<Pasajero> passenger) {
 		this.passenger = passenger.collect(Collectors.toList());
+	}
+	public ContenedorPasajero(Collection<Pasajero> passenger) {
+		this.passenger = new ArrayList<Pasajero>(passenger);
 	}
 
 	
@@ -64,6 +66,31 @@ public class ContenedorPasajero {
 	@Override
 	public String toString() {
 		return "ContenedorPasajero [passenger=" + passenger + "]";
+	}
+	@Override
+	public List<Pasajero> getPasajero() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Integer getNumeroPasajeros() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void añadirCollecionPasajero(Collection<Pasajero> p) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void eliminarPasajero(Pasajero p) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void eliminarPasajero(int n) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

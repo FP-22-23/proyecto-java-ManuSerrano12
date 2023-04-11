@@ -58,835 +58,835 @@ PassengerId;Survived;Pclass;Name;Sex;Age;Cabin;Boarding time;Ticket Cost
 57;1;2;Rugg, Miss. Emily;female;28;B14;14:22:14;824
 58;0;3;Novel, Mr. Mansouer;male;48;C85;16:34:25;581
 59;1;2;West, Miss. Constance Mirium;female;61;A111;23:17:35;529
-60;0;3;Goodwin, Master. William Frederick;male;59;C123;17:05:25;687
-61;0;3;Sirayanian, Mr. Orsen;male;56;C123;22:32:51;821
-62;1;1;Icard, Miss. Amelie;female;65;G3;16:48:31;881
-63;0;1;Harris, Mr. Henry Birkhardt;male;10;E48;23:11:04;814
-64;0;3;Skoog, Master. Harald;male;51;C23;19:47:11;710
-65;0;1;Stewart, Mr. Albert A;male;20;A378;12:40:00;553
-66;1;3;Moubarek, Master. Gerios;male;48;A467;20:51:38;1554
-67;1;2;Nye, Mrs. (Elizabeth Ramell);female;15;G8;18:24:22;873
-68;0;3;Crease, Mr. Ernest James;male;40;C105;19:35:37;670
-69;1;3;Andersson, Miss. Erna Alexandra;female;14;A15;18:22:54;697
-70;0;3;Kink, Mr. Vincenz;male;44;CT54;23:06:14;634
-71;0;2;Jenkin, Mr. Stephen Curnow;male;27;C4;18:55:35;896
-72;0;3;Goodwin, Miss. Lillian Amy;female;15;A14;21:55:30;720
-73;0;2;Hood, Mr. Ambrose Jr;male;8;G84;14:18:08;740
-74;0;3;Chronopoulos, Mr. Apostolos;male;33;G116;19:32:40;612
-75;1;3;Bing, Mr. Lee;male;35;B15;19:53:59;849
-76;0;3;Moen, Mr. Sigurd Hansen;male;8;C87;17:28:02;717
-77;0;3;Staneff, Mr. Ivan;male;53;B14;17:55:41;1976
-78;0;3;Moutal, Mr. Rahamin Haim;male;11;C123;20:34:42;575
-79;1;2;Caldwell, Master. Alden Gates;male;42;C123;18:54:23;512
-80;1;3;Dowdell, Miss. Elizabeth;female;4;G4;22:47:19;883
-81;0;3;Waelens, Mr. Achille;male;12;E49;17:12:46;649
-82;1;3;Sheerlinck, Mr. Jan Baptist;male;18;C24;14:02:07;759
-83;1;3;McDermott, Miss. Brigdet Delia;female;64;A202;14:33:35;477
-84;0;1;Carrau, Mr. Francisco M;male;26;C23 C25 C29;18:51:40;833
-85;1;2;Ilett, Miss. Bertha;female;31;B15;17:32:40;760
-86;1;3;Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson);female;20;C85;22:24:08;885
-87;0;3;Ford, Mr. William Neal;male;65;C1;12:49:39;806
-88;0;3;Slocovski, Mr. Selman Francis;male;50;C123;12:10:17;1941
-89;1;1;Fortune, Miss. Mabel Helen;female;38;C23 C25 C27;14:58:37;514
-90;0;3;Celotti, Mr. Francesco;male;70;B15;19:50:59;604
-91;0;3;Christmann, Mr. Emil;male;7;B96 B98;20:01:07;834
-92;0;3;Andreasson, Mr. Paul Edvin;male;9;B12+H2:H48;20:03:01;503
-93;0;1;Chaffee, Mr. Herbert Fuller;male;65;C85;23:25:54;708
-94;0;3;Dean, Mr. Bertram Frank;male;70;;21:51:26;472
-95;0;3;Coxon, Mr. Daniel;male;45;C123;14:20:42;511
-96;0;3;Shorney, Mr. Charles Joseph;male;26;C123;21:00:48;655
-97;0;1;Goldschmidt, Mr. George B;male;50;G2;23:45:31;525
-98;1;1;Greenfield, Mr. William Bertram;male;51;E47;15:49:21;620
-99;1;2;Doling, Mrs. John T (Ada Julia Bone);female;20;C22;14:20:29;1473
-100;0;2;Kantor, Mr. Sinai;male;16;A200;14:34:53;679
-101;0;3;Petranec, Miss. Matilda;female;65;A289;23:21:33;542
-102;0;3;"Petroff, Mr. Pastcho (""Pentcho"")";male;26;G7;15:21:22;543
-103;0;1;White, Mr. Richard Frasar;male;35;C104;23:29:03;784
-104;0;3;Johansson, Mr. Gustaf Joel;male;32;A14;14:31:33;804
-105;0;3;Gustafsson, Mr. Anders Vilhelm;male;39;CT53;23:22:28;514
-106;0;3;Mionoff, Mr. Stoytcho;male;64;C3;15:35:00;743
-107;1;3;Salkjelsvik, Miss. Anna Kristine;female;7;A13;18:27:12;674
-108;1;3;Moss, Mr. Albert Johan;male;67;G20;14:48:11;888
-109;0;3;Rekic, Mr. Tido;male;37;G52;14:25:37;835
-110;1;3;Moran, Miss. Bertha;female;18;B14;19:56:09;2592
-111;0;1;Porter, Mr. Walter Chamberlain;male;21;C86;20:34:52;515
-112;0;3;Zabour, Miss. Hileni;female;53;B13;20:32:01;819
-113;0;3;Barton, Mr. David John;male;3;C123;23:43:10;824
-114;0;3;Jussila, Miss. Katriina;female;20;C123;17:17:15;739
-115;0;3;Attalah, Miss. Malake;female;25;G3;12:39:29;725
-116;0;3;Pekoniemi, Mr. Edvard;male;7;E48;14:14:47;683
-117;0;3;Connors, Mr. Patrick;male;69;C23;18:56:45;693
-118;0;2;Turpin, Mr. William John Robert;male;3;A201;14:40:40;516
-119;0;1;Baxter, Mr. Quigg Edmond;male;37;C23 C25 C28;16:46:13;871
-120;0;3;Andersson, Miss. Ellis Anna Maria;female;5;B14;19:08:25;695
-121;0;2;Hickman, Mr. Stanley George;male;54;C86;12:28:01;1539
-122;0;3;Moore, Mr. Leonard Charles;male;37;B13;23:34:44;821
-123;0;2;Nasser, Mr. Nicholas;male;54;C123;22:13:59;603
-124;1;2;Webber, Miss. Susan;female;51;C123;22:37:29;825
-125;0;1;White, Mr. Percival Wayland;male;63;G3;18:15:40;465
-126;1;3;Nicola-Yarred, Master. Elias;male;36;E48;13:03:59;846
-127;0;3;McMahon, Mr. Martin;male;36;C23;21:51:01;621
-128;1;3;Madsen, Mr. Fridtjof Arne;male;4;A378;15:01:44;525
-129;1;3;Peter, Miss. Anna;female;16;A467;20:00:51;828
-130;0;3;Ekstrom, Mr. Johan;male;70;G8;18:37:07;462
-131;0;3;Drazenoic, Mr. Jozef;male;17;C105;20:55:30;881
-132;0;3;Coelho, Mr. Domingos Fernandeo;male;13;A15;15:46:46;1440
-133;0;3;Robins, Mrs. Alexander A (Grace Charity Laury);female;52;CT54;16:48:32;576
-134;1;2;Weisz, Mrs. Leopold (Mathilde Francoise Pede);female;7;C4;22:33:35;543
-135;0;2;Sobey, Mr. Samuel James Hayden;male;54;A14;20:04:03;757
-136;0;2;Richard, Mr. Emile;male;51;G84;14:17:55;541
-137;1;1;Newsom, Miss. Helen Monypeny;female;69;G116;13:59:22;633
-138;0;1;Futrelle, Mr. Jacques Heath;male;5;B15;21:43:48;810
-139;0;3;Osen, Mr. Olaf Elon;male;56;C87;21:22:41;897
-140;0;1;Giglio, Mr. Victor;male;10;B14;20:46:32;463
-141;0;3;Boulos, Mrs. Joseph (Sultana);female;16;C123;13:12:35;855
-142;1;3;Nysten, Miss. Anna Sofia;female;50;C123;21:58:50;829
-143;1;3;Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck);female;8;G4;13:31:15;2347
-144;0;3;Burke, Mr. Jeremiah;male;48;E49;21:39:43;462
-145;0;2;Andrew, Mr. Edgardo Samuel;male;25;C24;21:28:28;681
-146;0;2;Nicholls, Mr. Joseph Charles;male;18;A202;13:29:57;476
-147;1;3;"Andersson, Mr. August Edvard (""Wennerstrom"")";male;16;C23 C25 C29;22:27:39;548
-148;0;3;"Ford, Miss. Robina Maggie ""Ruby""";female;5;B15;12:18:07;710
-149;0;2;"Navratil, Mr. Michel (""Louis M Hoffman"")";male;13;C86;14:54:28;753
-150;0;2;Byles, Rev. Thomas Roussel Davids;male;20;A112;13:28:16;710
-151;0;2;Bateman, Rev. Robert James;male;62;C123;15:53:41;846
-152;1;1;Pears, Mrs. Thomas (Edith Wearne);female;70;C123;20:12:26;641
-153;0;3;Meo, Mr. Alfonzo;male;17;G4;20:46:11;661
-154;0;3;van Billiard, Mr. Austin Blyler;male;35;E49;17:39:31;2374
-155;0;3;Olsen, Mr. Ole Martin;male;31;C24;17:36:11;696
-156;0;1;Williams, Mr. Charles Duane;male;34;A556;17:10:33;599
-157;1;3;"Gilnagh, Miss. Katherine ""Katie""";female;66;A645;21:32:55;861
-158;0;3;Corn, Mr. Harry;male;48;G9;14:12:16;473
-159;0;3;Smiljanic, Mr. Mile;male;34;C106;14:08:18;474
-160;0;3;Sage, Master. Thomas Henry;male;10;A16;22:35:53;889
-161;0;3;Cribb, Mr. John Hatfield;male;5;CT55;17:09:38;741
-162;1;2;"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)";female;6;C5;17:04:15;743
-163;0;3;Bengtsson, Mr. John Viktor;male;9;A15;17:14:39;814
-164;0;3;Calic, Mr. Jovo;male;70;G148;20:55:11;791
-165;0;3;Panula, Master. Eino Viljami;male;70;G180;20:43:20;1362
-166;1;3;"Goldsmith, Master. Frank John William ""Frankie""";male;29;B16;19:01:58;761
-167;1;1;Chibnall, Mrs. (Edith Martha Bowerman);female;24;C88;15:13:34;791
-168;0;3;Skoog, Mrs. William (Anna Bernhardina Karlsson);female;42;B15;19:37:04;535
-169;0;1;Baumann, Mr. John D;male;63;C123;23:39:56;611
-170;0;3;Ling, Mr. Lee;male;55;C123;18:41:02;742
-171;0;1;Van der hoef, Mr. Wyckoff;male;8;G5;16:38:56;568
-172;0;3;Rice, Master. Arthur;male;57;E50;22:35:44;494
-173;1;3;Johnson, Miss. Eleanor Ileen;female;65;C25;16:06:13;475
-174;0;3;Sivola, Mr. Antti Wilhelm;male;56;A203;13:51:54;592
-175;0;1;Smith, Mr. James Clinch;male;64;C23 C25 C30;18:01:56;625
-176;0;3;Klasen, Mr. Klas Albin;male;13;B16;12:37:53;2057
-177;0;3;Lefebre, Master. Henry Forbes;male;51;C85;23:37:41;475
-178;0;1;Isham, Miss. Ann Elizabeth;female;56;C1;19:54:07;841
-179;0;2;Hale, Mr. Reginald;male;32;C123;13:09:11;717
-180;0;3;Leonard, Mr. Lionel;male;14;C23 C25 C28;18:25:58;865
-181;0;3;Sage, Miss. Constance Gladys;female;63;B16;13:09:31;585
-182;0;2;Pernot, Mr. Rene;male;48;B96 B99;15:30:45;767
-183;0;3;Asplund, Master. Clarence Gustaf Hugo;male;27;B12+H2:H49;16:31:25;818
-184;1;2;Becker, Master. Richard F;male;31;C85;17:13:40;619
-185;1;3;Kink-Heilmann, Miss. Luise Gretchen;female;10;;18:08:18;577
-186;0;1;Rood, Mr. Hugh Roscoe;male;69;C123;18:31:59;643
-187;1;3;"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)";female;33;C123;20:00:03;1628
-188;1;1;"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")";male;19;G3;21:48:55;879
-189;0;3;Bourke, Mr. John;male;3;E48;16:15:53;620
-190;0;3;Turcin, Mr. Stjepan;male;37;C23;16:05:47;742
-191;1;2;Pinsky, Mrs. (Rosa);female;20;A378;17:54:11;657
-192;0;2;Carbines, Mr. William;male;29;A467;15:51:15;828
-193;1;3;Andersen-Jensen, Miss. Carla Christine Nielsine;female;46;G8;17:48:09;477
-194;1;2;Navratil, Master. Michel M;male;23;C105;18:01:26;724
-195;1;1;Brown, Mrs. James Joseph (Margaret Tobin);female;22;A15;20:38:28;623
-196;1;1;Lurette, Miss. Elise;female;54;CT54;20:45:16;613
-197;0;3;Mernagh, Mr. Robert;male;33;C4;17:56:53;776
-198;0;3;Olsen, Mr. Karl Siegwart Andreas;male;2;A14;21:58:03;2097
-199;1;3;"Madigan, Miss. Margaret ""Maggie""";female;36;G84;22:26:41;721
-200;0;2;"Yrois, Miss. Henriette (""Mrs Harbeck"")";female;69;G116;13:28:06;657
-201;0;3;Vande Walle, Mr. Nestor Cyriel;male;11;B15;20:50:29;488
-202;0;3;Sage, Mr. Frederick;male;5;C87;13:34:21;799
-203;0;3;Johanson, Mr. Jakob Alfred;male;36;B14;15:57:01;730
-204;0;3;Youseff, Mr. Gerious;male;6;C123;17:00:27;728
-205;1;3;"Cohen, Mr. Gurshon ""Gus""";male;56;C123;14:52:28;870
-206;0;3;Strom, Miss. Telma Matilda;female;59;G4;19:51:59;820
-207;0;3;Backstrom, Mr. Karl Alfred;male;70;E49;20:34:17;660
-208;1;3;Albimona, Mr. Nassef Cassem;male;63;C24;20:49:07;842
-209;1;3;"Carr, Miss. Helen ""Ellen""";female;39;A202;22:32:54;2389
-210;1;1;Blank, Mr. Henry;male;70;C23 C25 C29;22:00:05;592
-211;0;3;Ali, Mr. Ahmed;male;12;B15;16:10:22;630
-212;1;2;Cameron, Miss. Clear Annie;female;17;C87;14:23:01;477
-213;0;3;Perkin, Mr. John Henry;male;70;B14;16:05:15;660
-214;0;2;Givard, Mr. Hans Kristensen;male;63;C123;23:28:51;696
-215;0;3;Kiernan, Mr. Philip;male;25;C123;13:29:58;861
-216;1;1;Newell, Miss. Madeleine;female;51;G4;23:27:49;509
-217;1;3;Honkanen, Miss. Eliina;female;26;E49;22:42:53;466
-218;0;2;Jacobsohn, Mr. Sidney Samuel;male;11;C24;22:32:03;598
-219;1;1;Bazzani, Miss. Albina;female;35;A556;18:14:14;640
-220;0;2;Harris, Mr. Walter;male;69;A645;17:24:32;2191
-221;1;3;Sunderland, Mr. Victor Francis;male;22;G9;16:26:18;724
-222;0;2;Bracken, Mr. James H;male;54;C106;19:51:35;597
-223;0;3;Green, Mr. George Henry;male;70;A16;12:38:34;572
-224;0;3;Nenkoff, Mr. Christo;male;65;CT55;21:36:08;685
-225;1;1;Hoyt, Mr. Frederick Maxfield;male;66;C5;15:27:37;631
-226;0;3;Berglund, Mr. Karl Ivar Sven;male;67;A15;22:37:34;530
-227;1;2;Mellors, Mr. William John;male;7;G148;16:12:40;596
-228;0;3;"Lovell, Mr. John Hall (""Henry"")";male;26;G180;20:17:13;836
-229;0;2;Fahlstrom, Mr. Arne Jonas;male;41;B16;23:49:09;824
-230;0;3;Lefebre, Miss. Mathilde;female;16;C88;13:49:23;658
-231;1;1;Harris, Mrs. Henry Birkhardt (Irene Wallach);female;58;B15;12:06:50;2448
-232;0;3;Larsson, Mr. Bengt Edvin;male;67;C123;19:21:14;562
-233;0;2;Sjostedt, Mr. Ernst Adolf;male;67;C123;20:40:29;524
-234;1;3;Asplund, Miss. Lillian Gertrud;female;14;G5;17:04:39;571
-235;0;2;Leyson, Mr. Robert William Norman;male;8;E50;19:57:15;495
-236;0;3;Harknett, Miss. Alice Phoebe;female;35;C25;16:20:09;791
-237;0;2;Hold, Mr. Stephen;male;29;A203;13:48:48;634
-238;1;2;"Collyer, Miss. Marjorie ""Lottie""";female;3;C23 C25 C30;18:32:44;864
-239;0;2;Pengelly, Mr. Frederick William;male;25;B16;14:18:34;635
-240;0;2;Hunt, Mr. George Henry;male;43;C87;22:32:17;534
-241;0;3;Zabour, Miss. Thamine;female;10;A113;12:36:04;882
-242;1;3;"Murphy, Miss. Katherine ""Kate""";female;33;C123;14:57:45;2332
-243;0;2;Coleridge, Mr. Reginald Charles;male;70;C123;13:39:03;775
-244;0;3;Maenpaa, Mr. Matti Alexanteri;male;43;G5;22:50:33;779
-245;0;3;Attalah, Mr. Sleiman;male;49;E50;14:14:45;791
-246;0;1;Minahan, Dr. William Edward;male;36;C25;15:56:05;575
-247;0;3;Lindahl, Miss. Agda Thorilda Viktoria;female;58;A734;14:11:05;497
-248;1;2;Hamalainen, Mrs. William (Anna);female;31;A823;22:16:37;644
-249;1;1;Beckwith, Mr. Richard Leonard;male;43;G10;20:52:16;849
-250;0;2;Carter, Rev. Ernest Courtenay;male;65;C107;17:16:02;715
-251;0;3;Reed, Mr. James George;male;5;A17;12:27:50;620
-252;0;3;Strom, Mrs. Wilhelm (Elna Matilda Persson);female;56;CT56;12:42:00;466
-253;0;1;Stead, Mr. William Thomas;male;64;C6;17:07:26;2707
-254;0;3;Lobb, Mr. William Arthur;male;31;A16;16:10:30;664
-255;0;3;Rosblom, Mrs. Viktor (Helena Wilhelmina);female;40;G212;19:39:56;693
-256;1;3;Touma, Mrs. Darwis (Hanne Youssef Razi);female;16;G244;15:48:52;524
-257;1;1;Thorne, Mrs. Gertrude Maybelle;female;35;B17;20:01:02;782
-258;1;1;Cherry, Miss. Gladys;female;34;C89;23:02:51;529
-259;1;1;Ward, Miss. Anna;female;41;B16;18:50:36;656
-260;1;2;Parrish, Mrs. (Lutie Davis);female;41;C123;23:39:42;665
-261;0;3;Smith, Mr. Thomas;male;41;C123;22:10:38;660
-262;1;3;Asplund, Master. Edvin Rojj Felix;male;17;G6;13:40:13;811
-263;0;1;Taussig, Mr. Emil;male;36;E51;22:34:22;636
-264;0;1;Harrison, Mr. William;male;15;C26;17:10:40;1993
-265;0;3;Henry, Miss. Delia;female;46;A204;22:38:38;643
-266;0;2;Reeves, Mr. David;male;40;C23 C25 C31;13:05:41;771
-267;0;3;Panula, Mr. Ernesti Arvid;male;40;B17;20:37:10;467
-268;1;3;Persson, Mr. Ernst Ulrik;male;45;C85;22:45:34;737
-269;1;1;Graham, Mrs. William Thompson (Edith Junkins);female;9;C1;17:15:30;769
-270;1;1;Bissette, Miss. Amelia;female;28;C123;20:32:36;741
-271;0;1;Cairns, Mr. Alexander;male;39;C23 C25 C29;23:25:10;470
-272;1;3;Tornquist, Mr. William Henry;male;23;B17;15:21:17;490
-273;1;2;Mellinger, Mrs. (Elizabeth Anne Maidment);female;68;B96 B100;14:04:37;874
-274;0;1;Natsch, Mr. Charles H;male;52;B12+H2:H50;14:26:15;789
-275;1;3;"Healy, Miss. Hanora ""Nora""";female;69;C85;22:44:19;1390
-276;1;1;Andrews, Miss. Kornelia Theodosia;female;17;;23:06:15;482
-277;0;3;Lindblom, Miss. Augusta Charlotta;female;37;C123;12:21:51;538
-278;0;2;"Parkes, Mr. Francis ""Frank""";male;30;C123;13:04:26;527
-279;0;3;Rice, Master. Eric;male;40;G4;22:52:37;495
-280;1;3;Abbott, Mrs. Stanton (Rosa Hunt);female;61;E49;19:50:03;489
-281;0;3;Duane, Mr. Frank;male;47;C24;23:01:07;725
-282;0;3;Olsson, Mr. Nils Johan Goransson;male;2;A556;20:15:11;624
-283;0;3;de Pelsmaeker, Mr. Alfons;male;52;A645;12:17:59;764
-284;1;3;Dorking, Mr. Edward Arthur;male;66;G9;12:06:11;792
-285;0;1;Smith, Mr. Richard William;male;32;C106;22:34:02;692
-286;0;3;Stankovic, Mr. Ivan;male;56;A16;19:18:17;2260
-287;1;3;de Mulder, Mr. Theodore;male;41;CT55;15:11:58;748
-288;0;3;Naidenoff, Mr. Penko;male;50;C5;12:47:42;548
-289;1;2;Hosono, Mr. Masabumi;male;25;A15;20:56:39;770
-290;1;3;Connolly, Miss. Kate;female;38;G148;17:58:15;649
-291;1;1;"Barber, Miss. Ellen ""Nellie""";female;32;G180;21:18:53;838
-292;1;1;Bishop, Mrs. Dickinson H (Helen Walton);female;17;B16;19:06:40;801
-293;0;2;Levy, Mr. Rene Jacques;male;25;C88;12:12:51;501
-294;0;3;Haas, Miss. Aloisia;female;23;B15;13:24:49;824
-295;0;3;Mineff, Mr. Ivan;male;38;C123;16:05:37;483
-296;0;1;Lewy, Mr. Ervin G;male;56;C123;17:24:26;679
-297;0;3;Hanna, Mr. Mansour;male;60;G5;20:54:42;1517
-298;0;1;Allison, Miss. Helen Loraine;female;70;E50;13:39:59;781
-299;1;1;Saalfeld, Mr. Adolphe;male;21;C25;23:36:55;644
-300;1;1;Baxter, Mrs. James (Helene DeLaudeniere Chaput);female;37;A203;18:51:14;582
-301;1;3;"Kelly, Miss. Anna Katherine ""Annie Kate""";female;52;C23 C25 C30;19:28:40;591
-302;1;3;McCoy, Mr. Bernard;male;62;B16;20:33:22;523
-303;0;3;Johnson, Mr. William Cahoone Jr;male;66;C88;19:25:38;756
-304;1;2;Keane, Miss. Nora A;female;11;B15;20:30:10;498
-305;0;3;"Williams, Mr. Howard Hugh ""Harry""";male;35;C123;17:13:29;475
-306;1;1;Allison, Master. Hudson Trevor;male;31;C123;19:46:25;474
-307;1;1;Fleming, Miss. Margaret;female;57;G5;12:14:50;871
-308;1;1;Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo);female;55;E50;13:20:40;2970
-309;0;2;Abelson, Mr. Samuel;male;11;C25;13:11:14;769
-310;1;1;Francatelli, Miss. Laura Mabel;female;11;A734;19:33:29;580
-311;1;1;Hays, Miss. Margaret Bechstein;female;3;A823;23:51:10;728
-312;1;1;Ryerson, Miss. Emily Borie;female;41;G10;14:42:19;895
-313;0;2;Lahtinen, Mrs. William (Anna Sylfven);female;47;C107;16:11:49;842
-314;0;3;Hendekovic, Mr. Ignjac;male;66;A17;13:45:21;738
-315;0;2;Hart, Mr. Benjamin;male;40;CT56;21:51:35;500
-316;1;3;Nilsson, Miss. Helmina Josefina;female;35;C6;20:04:24;663
-317;1;2;Kantor, Mrs. Sinai (Miriam Sternin);female;70;A16;12:14:02;508
-318;0;2;Moraweck, Dr. Ernest;male;45;G212;15:45:58;762
-319;1;1;Wick, Miss. Mary Natalie;female;30;G244;19:18:04;2541
-320;1;1;Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone);female;22;B17;13:55:46;517
-321;0;3;Dennis, Mr. Samuel;male;9;C89;16:18:30;467
-322;0;3;Danoff, Mr. Yoto;male;34;B16;23:11:38;721
-323;1;2;Slayter, Miss. Hilda Mary;female;50;C123;22:39:48;620
-324;1;2;Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh);female;47;C123;22:07:53;772
-325;0;3;Sage, Mr. George John Jr;male;60;G6;14:25:59;805
-326;1;1;Young, Miss. Marie Grice;female;28;E51;15:43:08;560
-327;0;3;Nysveen, Mr. Johan Hansen;male;60;C26;19:09:59;530
-328;1;2;Ball, Mrs. (Ada E Hall);female;36;A204;19:22:37;693
-329;1;3;Goldsmith, Mrs. Frank John (Emily Alice Brown);female;59;C23 C25 C31;23:53:23;524
-330;1;1;Hippach, Miss. Jean Gertrude;female;4;B17;13:12:35;1918
-331;1;3;McCoy, Miss. Agnes;female;25;C88;17:01:34;624
-332;0;1;Partner, Mr. Austen;male;57;A114;19:18:54;554
-333;0;1;Graham, Mr. George Edward;male;11;C123;16:33:50;715
-334;0;3;Vander Planke, Mr. Leo Edmondus;male;65;C123;17:58:39;680
-335;1;1;Frauenthal, Mrs. Henry William (Clara Heinsheimer);female;39;G6;13:25:22;815
-336;0;3;Denkoff, Mr. Mitto;male;13;E51;23:50:35;729
-337;0;1;Pears, Mr. Thomas Clinton;male;46;C26;22:28:37;679
-338;1;1;Burns, Miss. Elizabeth Margaret;female;22;A912;23:49:38;620
-339;1;3;Dahl, Mr. Karl Edwart;male;49;A1001;23:21:19;703
-340;0;1;Blackwell, Mr. Stephen Weart;male;44;G11;19:49:08;632
-341;1;2;Navratil, Master. Edmond Roger;male;6;C108;23:57:00;2957
-342;1;1;Fortune, Miss. Alice Elizabeth;female;22;A18;22:47:13;696
-343;0;2;Collander, Mr. Erik Gustaf;male;8;CT57;22:42:54;815
-344;0;2;Sedgwick, Mr. Charles Frederick Waddington;male;24;C7;22:58:27;697
-345;0;2;Fox, Mr. Stanley Hubert;male;32;A17;12:23:44;897
-346;1;2;"Brown, Miss. Amelia ""Mildred""";female;13;G276;23:36:25;835
-347;1;2;Smith, Miss. Marion Elsie;female;6;G308;23:58:05;840
-348;1;3;Davison, Mrs. Thomas Henry (Mary E Finck);female;59;B18;22:29:59;601
-349;1;3;"Coutts, Master. William Loch ""William""";male;37;C90;16:28:36;632
-350;0;3;Dimic, Mr. Jovan;male;6;B17;13:07:31;880
-351;0;3;Odahl, Mr. Nils Martin;male;37;C123;22:10:09;561
-352;0;1;Williams-Lambert, Mr. Fletcher Fellows;male;66;C123;22:07:29;2720
-353;0;3;Elias, Mr. Tannous;male;25;G7;16:23:18;860
-354;0;3;Arnold-Franchi, Mr. Josef;male;8;E52;16:09:51;524
-355;0;3;Yousif, Mr. Wazli;male;60;C27;17:34:43;641
-356;0;3;Vanden Steen, Mr. Leo Peter;male;50;A205;23:55:45;607
-357;1;1;Bowerman, Miss. Elsie Edith;female;68;C23 C25 C32;13:08:21;566
-358;0;2;Funk, Miss. Annie Clemmer;female;60;B18;23:44:40;785
-359;1;3;McGovern, Miss. Mary;female;24;C85;15:21:22;803
-360;1;3;"Mockler, Miss. Helen Mary ""Ellie""";female;50;C1;21:54:42;816
-361;0;3;Skoog, Mr. Wilhelm;male;7;C123;21:35:54;789
-362;0;2;del Carlo, Mr. Sebastiano;male;70;C23 C25 C30;18:34:29;606
-363;0;3;Barbara, Mrs. (Catherine David);female;49;B18;14:02:47;1806
-364;0;3;Asim, Mr. Adola;male;47;B96 B101;14:04:36;549
-365;0;3;O'Brien, Mr. Thomas;male;66;B12+H2:H51;13:02:52;552
-366;0;3;Adahl, Mr. Mauritz Nils Martin;male;56;C85;16:56:27;827
-367;1;1;Warren, Mrs. Frank Manley (Anna Sophia Atkinson);female;13;;14:09:59;582
-368;1;3;Moussa, Mrs. (Mantoura Boulos);female;51;C123;23:29:24;692
-369;1;3;Jermyn, Miss. Annie;female;21;C123;23:07:51;550
-370;1;1;Aubart, Mme. Leontine Pauline;female;2;G5;12:59:15;717
-371;1;1;Harder, Mr. George Achilles;male;32;E50;15:25:09;659
-372;0;3;Wiklund, Mr. Jakob Alfred;male;46;C25;18:17:51;465
-373;0;3;Beavan, Mr. William Thomas;male;67;A734;16:37:16;584
-374;0;1;Ringhini, Mr. Sante;male;51;A823;22:53:11;2424
-375;0;3;Palsson, Miss. Stina Viola;female;28;G10;14:09:52;718
-376;1;1;Meyer, Mrs. Edgar Joseph (Leila Saks);female;17;C107;15:54:29;679
-377;1;3;Landergren, Miss. Aurora Adelia;female;43;A17;21:50:10;896
-378;0;1;Widener, Mr. Harry Elkins;male;6;CT56;23:21:08;569
-379;0;3;Betros, Mr. Tannous;male;10;C6;12:27:15;788
-380;0;3;Gustafsson, Mr. Karl Gideon;male;69;A16;13:57:07;711
-381;1;1;Bidois, Miss. Rosalie;female;46;G212;16:37:01;861
-382;1;3;"Nakid, Miss. Maria (""Mary"")";female;4;G244;12:11:11;716
-383;0;3;Tikkanen, Mr. Juho;male;9;B17;23:26:54;719
-384;1;1;Holverson, Mrs. Alexander Oskar (Mary Aline Towner);female;41;C89;15:01:41;767
-385;0;3;Plotcharsky, Mr. Vasil;male;33;B16;16:39:55;1598
-386;0;2;Davies, Mr. Charles Henry;male;15;C123;12:04:44;874
-387;0;3;Goodwin, Master. Sidney Leonard;male;53;C123;22:10:02;677
-388;1;2;Buss, Miss. Kate;female;13;G6;16:33:26;877
-389;0;3;Sadlier, Mr. Matthew;male;51;E51;18:51:39;596
-390;1;2;Lehmann, Miss. Bertha;female;9;C26;17:05:56;846
-391;1;1;Carter, Mr. William Ernest;male;12;A204;18:21:15;676
-392;1;3;Jansson, Mr. Carl Olof;male;50;C23 C25 C31;12:26:59;688
-393;0;3;Gustafsson, Mr. Johan Birger;male;19;B17;18:07:17;705
-394;1;1;Newell, Miss. Marjorie;female;13;C89;21:40:18;527
-395;1;3;Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson);female;48;B16;23:34:44;486
-396;0;3;Johansson, Mr. Erik;male;44;C123;15:23:20;2199
-397;0;3;Olsson, Miss. Elina;female;55;C123;13:37:33;694
-398;0;2;McKane, Mr. Peter David;male;23;G6;22:34:34;896
-399;0;2;Pain, Dr. Alfred;male;62;E51;19:23:51;486
-400;1;2;Trout, Mrs. William H (Jessie L);female;31;C26;22:22:34;467
-401;1;3;Niskanen, Mr. Juha;male;13;A912;22:26:41;522
-402;0;3;Adams, Mr. John;male;47;A1001;14:31:47;470
-403;0;3;Jussila, Miss. Mari Aina;female;9;G11;13:06:13;894
-404;0;3;Hakkarainen, Mr. Pekka Pietari;male;9;C108;14:21:50;735
-405;0;3;Oreskovic, Miss. Marija;female;15;A18;18:03:58;679
-406;0;2;Gale, Mr. Shadrach;male;25;CT57;22:47:04;886
-407;0;3;Widegren, Mr. Carl/Charles Peter;male;48;C7;18:51:09;1831
-408;1;2;Richards, Master. William Rowe;male;58;A17;21:49:49;755
-409;0;3;Birkeland, Mr. Hans Martin Monsen;male;70;G276;22:29:36;739
-410;0;3;Lefebre, Miss. Ida;female;54;G308;12:16:01;676
-411;0;3;Sdycoff, Mr. Todor;male;19;B18;23:05:11;715
-412;0;3;Hart, Mr. Henry;male;67;C90;22:33:17;761
-413;1;1;Minahan, Miss. Daisy E;female;48;B17;17:43:46;585
-414;0;2;Cunningham, Mr. Alfred Fleming;male;42;C123;18:21:58;715
-415;1;3;Sundman, Mr. Johan Julian;male;60;C123;18:33:19;716
-416;0;3;Meek, Mrs. Thomas (Annie Louise Rowley);female;6;G7;17:20:24;881
-417;1;2;Drew, Mrs. James Vivian (Lulu Thorne Christian);female;69;E52;23:46:58;597
-418;1;2;Silven, Miss. Lyyli Karoliina;female;50;C27;16:46:51;1847
-419;0;2;Matthews, Mr. William John;male;17;A205;23:28:41;624
-420;0;3;Van Impe, Miss. Catharina;female;24;C23 C25 C32;12:52:38;611
-421;0;3;Gheorgheff, Mr. Stanio;male;39;B18;18:41:23;747
-422;0;3;Charters, Mr. David;male;60;C89;18:21:24;842
-423;0;3;Zimmerman, Mr. Leo;male;45;A115;18:04:37;744
-424;0;3;Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren);female;26;C123;14:08:31;491
-425;0;3;Rosblom, Mr. Viktor Richard;male;66;C123;18:15:35;467
-426;0;3;Wiseman, Mr. Phillippe;male;44;G7;22:08:38;644
-427;1;2;Clarke, Mrs. Charles V (Ada Maria Winfield);female;35;E52;18:07:26;573
-428;1;2;"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")";female;47;C27;13:26:00;830
-429;0;3;Flynn, Mr. James;male;59;A1090;20:28:07;1617
-430;1;3;Pickard, Mr. Berk (Berk Trembisky);male;53;A1179;20:37:22;585
-431;1;1;Bjornstrom-Steffansson, Mr. Mauritz Hakan;male;54;G12;18:46:46;863
-432;1;3;Thorneycroft, Mrs. Percival (Florence Kate White);female;6;C109;23:32:25;513
-433;1;2;Louch, Mrs. Charles Alexander (Alice Adelaide Slow);female;30;A19;13:10:34;581
-434;0;3;Kallio, Mr. Nikolai Erland;male;9;CT58;18:45:51;551
-435;0;1;Silvey, Mr. William Baird;male;18;C8;12:08:47;553
-436;1;1;Carter, Miss. Lucile Polk;female;8;A18;13:07:49;582
-437;0;3;"Ford, Miss. Doolina Margaret ""Daisy""";female;66;G340;17:37:48;538
-438;1;2;Richards, Mrs. Sidney (Emily Hocking);female;51;G372;17:10:44;883
-439;0;1;Fortune, Mr. Mark;male;63;B19;14:23:13;805
-440;0;2;Kvillner, Mr. Johan Henrik Johannesson;male;7;C91;13:17:34;2992
-441;1;2;Hart, Mrs. Benjamin (Esther Ada Bloomfield);female;29;B18;17:15:15;611
-442;0;3;Hampe, Mr. Leon;male;40;C123;17:33:50;481
-443;0;3;Petterson, Mr. Johan Emil;male;7;C123;23:18:33;789
-444;1;2;Reynaldo, Ms. Encarnacion;female;50;G8;14:08:01;840
-445;1;3;Johannesen-Bratthammer, Mr. Bernt;male;56;E53;14:03:47;775
-446;1;1;Dodge, Master. Washington;male;48;C28;12:22:36;720
-447;1;2;Mellinger, Miss. Madeleine Violet;female;21;A206;12:47:37;553
-448;1;1;Seward, Mr. Frederic Kimber;male;49;C23 C25 C33;19:35:47;832
-449;1;3;Baclini, Miss. Marie Catherine;female;17;B19;16:20:27;613
-450;1;1;Peuchen, Major. Arthur Godfrey;male;15;C85;21:36:20;683
-451;0;2;West, Mr. Edwy Arthur;male;11;C1;13:37:44;1462
-452;0;3;Hagland, Mr. Ingvald Olai Olsen;male;55;C123;23:10:24;651
-453;0;1;Foreman, Mr. Benjamin Laventall;male;65;C23 C25 C31;12:09:11;694
-454;1;1;Goldenberg, Mr. Samuel L;male;5;B19;20:21:43;591
-455;0;3;Peduzzi, Mr. Joseph;male;53;B96 B102;23:48:44;836
-456;1;3;Jalsevac, Mr. Ivan;male;32;B12+H2:H52;22:33:20;771
-457;0;1;Millet, Mr. Francis Davis;male;33;C85;12:52:52;486
-458;1;1;Kenyon, Mrs. Frederick R (Marion);female;9;;14:11:12;801
-459;1;2;Toomey, Miss. Ellen;female;59;C123;23:22:27;590
-460;0;3;O'Connor, Mr. Maurice;male;24;C123;19:21:04;645
-461;1;1;Anderson, Mr. Harry;male;21;G6;23:53:45;679
-462;0;3;Morley, Mr. William;male;59;E51;19:10:33;1542
-463;0;1;Gee, Mr. Arthur H;male;28;C26;19:59:20;895
-464;0;2;Milling, Mr. Jacob Christian;male;17;A912;21:47:42;705
-465;0;3;Maisner, Mr. Simon;male;37;A1001;14:20:15;683
-466;0;3;Goncalves, Mr. Manuel Estanslas;male;27;G11;15:03:24;859
-467;0;2;Campbell, Mr. William;male;12;C108;21:06:43;674
-468;0;1;Smart, Mr. John Montgomery;male;34;A18;20:49:18;864
-469;0;3;Scanlan, Mr. James;male;64;CT57;13:13:50;494
-470;1;3;Baclini, Miss. Helene Barbara;female;62;C7;19:05:21;774
-471;0;3;Keefe, Mr. Arthur;male;62;A17;18:14:45;688
-472;0;3;Cacic, Mr. Luka;male;51;G276;19:49:48;574
-473;1;2;West, Mrs. Edwy Arthur (Ada Mary Worth);female;6;G308;16:16:49;1838
-474;1;2;Jerwan, Mrs. Amin S (Marie Marthe Thuillard);female;14;B18;19:25:35;743
-475;0;3;Strandberg, Miss. Ida Sofia;female;67;C90;12:50:16;573
-476;0;1;Clifford, Mr. George Quincy;male;15;B17;21:57:21;610
-477;0;2;Renouf, Mr. Peter Henry;male;37;C123;12:45:27;769
-478;0;3;Braund, Mr. Lewis Richard;male;36;C123;21:48:48;582
-479;0;3;Karlsson, Mr. Nils August;male;37;G7;23:56:44;596
-480;1;3;Hirvonen, Miss. Hildur E;female;27;E52;16:30:20;713
-481;0;3;Goodwin, Master. Harold Victor;male;16;C27;19:59:41;823
-482;0;2;"Frost, Mr. Anthony Wood ""Archie""";male;7;A205;20:34:10;645
-483;0;3;Rouse, Mr. Richard Henry;male;52;C23 C25 C32;12:12:31;625
-484;1;3;Turkula, Mrs. (Hedwig);female;42;B18;18:39:28;2376
-485;1;1;Bishop, Mr. Dickinson H;male;12;C90;13:06:35;850
-486;0;3;Lefebre, Miss. Jeannie;female;53;B17;18:11:17;551
-487;1;1;Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby);female;67;C123;19:10:00;866
-488;0;1;Kent, Mr. Edward Austin;male;33;C123;16:07:32;763
-489;0;3;Somerton, Mr. Francis William;male;26;G7;22:53:23;868
-490;1;3;"Coutts, Master. Eden Leslie ""Neville""";male;47;E52;18:12:44;516
-491;0;3;Hagland, Mr. Konrad Mathias Reiersen;male;54;C27;17:09:57;643
-492;0;3;Windelov, Mr. Einar;male;29;A1090;16:41:58;602
-493;0;1;Molson, Mr. Harry Markland;male;38;A1179;22:09:48;541
-494;0;1;Artagaveytia, Mr. Ramon;male;24;G12;13:01:30;579
-495;0;3;Stanley, Mr. Edward Roland;male;8;C109;23:27:17;2869
-496;0;3;Yousseff, Mr. Gerious;male;8;A19;14:49:32;707
-497;1;1;Eustis, Miss. Elizabeth Mussey;female;48;CT58;12:34:01;565
-498;0;3;Shellard, Mr. Frederick William;male;35;C8;19:40:10;741
-499;0;1;Allison, Mrs. Hudson J C (Bessie Waldo Daniels);female;61;A18;19:51:51;808
-500;0;3;Svensson, Mr. Olof;male;55;G340;23:06:07;861
-501;0;3;Calic, Mr. Petar;male;32;G372;21:40:32;642
-502;0;3;Canavan, Miss. Mary;female;4;B19;12:49:01;848
-503;0;3;O'Sullivan, Miss. Bridget Mary;female;51;C91;14:05:26;679
-504;0;3;Laitinen, Miss. Kristina Sofia;female;36;B18;12:23:14;849
-505;1;1;Maioni, Miss. Roberta;female;31;C123;19:05:06;793
-506;0;1;Penasco y Castellana, Mr. Victor de Satode;male;60;C123;14:51:33;1672
-507;1;2;Quick, Mrs. Frederick Charles (Jane Richards);female;61;G8;21:03:21;846
-508;1;1;"Bradley, Mr. George (""George Arthur Brayton"")";male;50;E53;16:07:05;740
-509;0;3;Olsen, Mr. Henry Margido;male;30;C28;22:48:13;554
-510;1;3;Lang, Mr. Fang;male;29;A206;12:55:57;464
-511;1;3;Daly, Mr. Eugene Patrick;male;34;C23 C25 C33;18:43:09;662
-512;0;3;Webber, Mr. James;male;35;B19;22:15:39;850
-513;1;1;McGough, Mr. James Robert;male;68;C90;15:01:31;849
-514;1;1;Rothschild, Mrs. Martin (Elizabeth L. Barrett);female;11;A116;14:00:40;873
-515;0;3;Coleff, Mr. Satio;male;29;C123;19:10:38;636
-516;0;1;Walker, Mr. William Anderson;male;52;C123;14:37:05;879
-517;1;2;Lemore, Mrs. (Amelia Milley);female;41;G8;18:48:06;2510
-518;0;3;Ryan, Mr. Patrick;male;18;E53;23:50:45;708
-519;1;2;"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)";female;35;C28;19:18:14;515
-520;0;3;Pavlovic, Mr. Stefo;male;46;A1268;18:42:59;596
-521;1;1;Perreault, Miss. Anne;female;17;A1357;17:14:46;765
-522;0;3;Vovk, Mr. Janko;male;54;G13;13:13:27;747
-523;0;3;Lahoud, Mr. Sarkis;male;10;C110;17:23:29;540
-524;1;1;Hippach, Mrs. Louis Albert (Ida Sophia Fischer);female;33;A20;23:25:47;842
-525;0;3;Kassem, Mr. Fared;male;30;CT59;16:22:48;794
-526;0;3;Farrell, Mr. James;male;13;C9;20:51:11;561
-527;1;2;Ridsdale, Miss. Lucy;female;60;A19;16:43:48;707
-528;0;1;Farthing, Mr. John;male;11;G404;21:38:04;2921
-529;0;3;Salonen, Mr. Johan Werner;male;38;G436;13:47:29;829
-530;0;2;Hocking, Mr. Richard George;male;60;B20;13:00:27;721
-531;1;2;Quick, Miss. Phyllis May;female;55;C92;12:44:20;723
-532;0;3;Toufik, Mr. Nakli;male;20;B19;17:52:04;501
-533;0;3;Elias, Mr. Joseph Jr;male;66;C123;17:59:11;672
-534;1;3;Peter, Mrs. Catherine (Catherine Rizk);female;49;C123;21:50:57;849
-535;0;3;Cacic, Miss. Marija;female;15;G9;15:19:20;849
-536;1;2;Hart, Miss. Eva Miriam;female;45;E54;14:40:19;477
-537;0;1;Butt, Major. Archibald Willingham;male;35;C29;22:48:20;578
-538;1;1;LeRoy, Miss. Bertha;female;54;A207;23:09:17;823
-539;0;3;Risien, Mr. Samuel Beard;male;19;C23 C25 C34;13:14:10;1980
-540;1;1;Frolicher, Miss. Hedwig Margaritha;female;53;B20;21:18:36;502
-541;1;1;Crosby, Miss. Harriet R;female;51;C85;22:24:05;821
-542;0;3;Andersson, Miss. Ingeborg Constanzia;female;49;C1;12:43:57;847
-543;0;3;Andersson, Miss. Sigrid Elisabeth;female;52;C123;12:31:06;546
-544;1;2;Beane, Mr. Edward;male;47;C23 C25 C32;12:22:29;490
-545;0;1;Douglas, Mr. Walter Donald;male;58;B20;14:51:56;523
-546;0;1;Nicholson, Mr. Arthur Ernest;male;65;B96 B103;14:30:22;821
-547;1;2;Beane, Mrs. Edward (Ethel Clarke);female;52;B12+H2:H53;20:55:42;740
-548;1;2;Padro y Manent, Mr. Julian;male;35;C85;17:07:01;653
-549;0;3;Goldsmith, Mr. Frank John;male;7;;19:23:50;516
-550;1;2;Davies, Master. John Morgan Jr;male;38;C123;19:05:14;2905
-551;1;1;Thayer, Mr. John Borland Jr;male;7;C123;19:51:34;756
-552;0;2;Sharp, Mr. Percival James R;male;31;G7;18:14:34;620
-553;0;3;O'Brien, Mr. Timothy;male;16;E52;21:48:50;617
-554;1;3;"Leeni, Mr. Fahim (""Philip Zenni"")";male;31;C27;17:17:18;606
-555;1;3;Ohman, Miss. Velin;female;28;A1090;13:58:59;853
-556;0;1;Wright, Mr. George;male;28;A1179;18:19:46;579
-557;1;1;"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")";female;55;G12;19:02:59;791
-558;0;1;Robbins, Mr. Victor;male;66;C109;20:43:39;527
-559;1;1;Taussig, Mrs. Emil (Tillie Mandelbaum);female;21;A19;20:18:41;828
-560;1;3;de Messemaeker, Mrs. Guillaume Joseph (Emma);female;61;CT58;17:21:20;563
-561;0;3;Morrow, Mr. Thomas Rowan;male;33;C8;19:22:52;1866
-562;0;3;Sivic, Mr. Husein;male;26;A18;15:54:14;740
-563;0;2;Norman, Mr. Robert Douglas;male;28;G340;13:58:29;471
-564;0;3;Simmons, Mr. John;male;34;G372;16:54:06;475
-565;0;3;Meanwell, Miss. (Marion Ogden);female;45;B19;15:41:02;489
-566;0;3;Davies, Mr. Alfred J;male;7;C91;14:25:27;622
-567;0;3;Stoytcheff, Mr. Ilia;male;25;B18;12:07:34;555
-568;0;3;Palsson, Mrs. Nils (Alma Cornelia Berglund);female;68;C123;12:31:22;692
-569;0;3;Doharr, Mr. Tannous;male;38;C123;18:02:50;534
-570;1;3;Jonsson, Mr. Carl;male;49;G8;17:50:54;742
-571;1;2;Harris, Mr. George;male;25;E53;16:55:34;776
-572;1;1;Appleton, Mrs. Edward Dale (Charlotte Lamson);female;52;C28;17:54:09;1926
-573;1;1;"Flynn, Mr. John Irwin (""Irving"")";male;45;A206;22:01:06;478
-574;1;3;Kelly, Miss. Mary;female;32;C23 C25 C33;16:04:37;723
-575;0;3;Rush, Mr. Alfred George John;male;33;B19;22:43:21;648
-576;0;3;Patchett, Mr. George;male;42;C91;16:41:55;840
-577;1;2;Garside, Miss. Ethel;female;7;B18;18:42:32;810
-578;1;1;Silvey, Mrs. William Baird (Alice Munger);female;25;C123;17:44:52;629
-579;0;3;Caram, Mrs. Joseph (Maria Elias);female;8;C123;21:42:19;682
-580;1;3;Jussila, Mr. Eiriik;male;22;G8;17:52:31;566
-581;1;2;Christy, Miss. Julie Rachel;female;10;E53;15:00:20;673
-582;1;1;Thayer, Mrs. John Borland (Marian Longstreth Morris);female;43;C28;19:30:35;707
-583;0;2;Downton, Mr. William James;male;4;A1268;19:53:14;2127
-584;0;1;Ross, Mr. John Hugo;male;17;A1357;21:53:14;562
-585;0;3;Paulner, Mr. Uscher;male;40;G13;18:47:12;650
-586;1;1;Taussig, Miss. Ruth;female;4;C110;22:15:28;514
-587;0;2;Jarvis, Mr. John Denzil;male;2;A20;21:40:08;555
-588;1;1;Frolicher-Stehli, Mr. Maxmillian;male;36;CT59;22:48:44;640
-589;0;3;Gilinski, Mr. Eliezer;male;20;C9;12:02:03;594
-590;0;3;Murdlin, Mr. Joseph;male;24;A19;18:16:49;506
-591;0;3;Rintamaki, Mr. Matti;male;16;G404;18:51:22;607
-592;1;1;Stephenson, Mrs. Walter Bertram (Martha Eustis);female;40;G436;13:43:27;571
-593;0;3;Elsbury, Mr. William James;male;45;B20;14:47:40;672
-594;0;3;Bourke, Miss. Mary;female;34;C92;15:03:46;1978
-595;0;2;Chapman, Mr. John Henry;male;56;B19;19:15:36;488
-596;0;3;Van Impe, Mr. Jean Baptiste;male;53;C123;18:36:09;724
-597;1;2;Leitch, Miss. Jessie Wills;female;52;C123;22:21:23;615
-598;0;3;Johnson, Mr. Alfred;male;2;G9;19:37:42;575
-599;0;3;Boulos, Mr. Hanna;male;48;E54;13:13:52;653
-600;1;1;"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")";male;41;C29;20:02:40;840
-601;1;2;Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy);female;24;A207;16:36:04;843
-602;0;3;Slabenoff, Mr. Petco;male;45;C23 C25 C34;22:59:16;641
-603;0;1;Harrington, Mr. Charles H;male;25;B20;20:24:37;666
-604;0;3;Torber, Mr. Ernst William;male;42;C91;14:04:31;487
-605;1;1;"Homer, Mr. Harry (""Mr E Haven"")";male;67;A117;13:24:51;1570
-606;0;3;Lindell, Mr. Edvard Bengtsson;male;55;C123;14:28:53;670
-607;0;3;Karaic, Mr. Milan;male;58;C123;18:05:42;482
-608;1;1;Daniel, Mr. Robert Williams;male;21;G9;16:40:52;744
-609;1;2;Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue);female;3;E54;14:53:20;551
-610;1;1;Shutes, Miss. Elizabeth W;female;44;C29;19:05:02;528
-611;0;3;Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren);female;44;A1446;23:02:14;880
-612;0;3;Jardin, Mr. Jose Neto;male;48;A1535;16:00:05;791
-613;1;3;Murphy, Miss. Margaret Jane;female;35;G14;15:26:46;894
-614;0;3;Horgan, Mr. John;male;22;C111;18:04:11;609
-615;0;3;Brocklebank, Mr. William Alfred;male;26;A21;23:33:13;818
-616;1;2;Herman, Miss. Alice;female;53;CT60;15:33:54;1549
-617;0;3;Danbom, Mr. Ernst Gilbert;male;4;C10;21:31:43;545
-618;0;3;Lobb, Mrs. William Arthur (Cordelia K Stanlick);female;50;A20;13:54:46;707
-619;1;2;Becker, Miss. Marion Louise;female;60;G468;15:29:24;491
-620;0;2;Gavey, Mr. Lawrence;male;26;G500;19:17:36;835
-621;0;3;Yasbeck, Mr. Antoni;male;5;B21;23:11:17;897
-622;1;1;Kimball, Mr. Edwin Nelson Jr;male;12;C93;23:15:09;614
-623;1;3;Nakid, Mr. Sahid;male;11;B20;18:59:08;504
-624;0;3;Hansen, Mr. Henry Damsgaard;male;69;C123;15:04:32;813
-625;0;3;"Bowen, Mr. David John ""Dai""";male;49;C123;19:02:01;761
-626;0;1;Sutton, Mr. Frederick;male;57;G10;18:15:24;876
-627;0;2;Kirkland, Rev. Charles Leonard;male;33;E55;14:38:37;2240
-628;1;1;Longley, Miss. Gretchen Fiske;female;36;C30;15:40:42;843
-629;0;3;Bostandyeff, Mr. Guentcho;male;31;A208;19:57:32;646
-630;0;3;O'Connell, Mr. Patrick D;male;54;C23 C25 C35;16:55:01;575
-631;1;1;Barkworth, Mr. Algernon Henry Wilson;male;28;B21;17:59:09;655
-632;0;3;Lundahl, Mr. Johan Svensson;male;40;C85;18:18:00;899
-633;1;1;Stahelin-Maeglin, Dr. Max;male;48;C1;14:36:42;827
-634;0;1;Parr, Mr. William Henry Marsh;male;55;C123;23:22:02;830
-635;0;3;Skoog, Miss. Mabel;female;62;C23 C25 C33;13:36:31;731
-636;1;2;Davis, Miss. Mary;female;32;B21;13:22:27;533
-637;0;3;Leinonen, Mr. Antti Gustaf;male;9;B96 B104;21:16:38;582
-638;0;2;Collyer, Mr. Harvey;male;57;B12+H2:H54;15:49:30;2023
-639;0;3;Panula, Mrs. Juha (Maria Emilia Ojala);female;23;C85;12:08:59;511
-640;0;3;Thorneycroft, Mr. Percival;male;11;;17:27:36;886
-641;0;3;Jensen, Mr. Hans Peder;male;10;C123;14:47:44;797
-642;1;1;Sagesser, Mlle. Emma;female;3;C123;19:51:09;633
-643;0;3;Skoog, Miss. Margit Elizabeth;female;15;G8;14:31:24;593
-644;1;3;Foo, Mr. Choong;male;9;E53;21:03:25;600
-645;1;3;Baclini, Miss. Eugenie;female;5;C28;12:17:20;791
-646;1;1;Harper, Mr. Henry Sleeper;male;57;A1268;13:33:36;784
-647;0;3;Cor, Mr. Liudevit;male;55;A1357;21:49:18;630
-648;1;1;Simonius-Blumer, Col. Oberst Alfons;male;67;G13;21:09:14;594
-649;0;3;Willey, Mr. Edward;male;26;C110;12:56:46;2125
-650;1;3;Stanley, Miss. Amy Zillah Elsie;female;5;A20;12:11:27;613
-651;0;3;Mitkoff, Mr. Mito;male;33;CT59;19:33:44;871
-652;1;2;Doling, Miss. Elsie;female;4;C9;22:43:40;562
-653;0;3;Kalvik, Mr. Johannes Halvorsen;male;49;A19;15:34:16;596
-654;1;3;"O'Leary, Miss. Hanora ""Norah""";female;61;G404;19:08:14;648
-655;0;3;"Hegarty, Miss. Hanora ""Nora""";female;49;G436;20:40:51;705
-656;0;2;Hickman, Mr. Leonard Mark;male;69;B20;22:42:08;743
-657;0;3;Radeff, Mr. Alexander;male;70;C92;17:57:45;701
-658;0;3;Bourke, Mrs. John (Catherine);female;42;B19;22:51:52;771
-659;0;2;Eitemiller, Mr. George Floyd;male;27;C123;14:33:15;579
-660;0;1;Newell, Mr. Arthur Webster;male;61;C123;15:24:03;2823
-661;1;1;Frauenthal, Dr. Henry William;male;40;G9;18:17:43;820
-662;0;3;Badt, Mr. Mohamed;male;62;E54;12:40:45;780
-663;0;1;Colley, Mr. Edward Pomeroy;male;34;C29;14:49:37;871
-664;0;3;Coleff, Mr. Peju;male;37;A207;16:43:00;561
-665;1;3;Lindqvist, Mr. Eino William;male;17;C23 C25 C34;18:23:46;754
-666;0;2;Hickman, Mr. Lewis;male;22;B20;22:27:10;889
-667;0;2;Butler, Mr. Reginald Fenton;male;40;C92;16:35:30;774
-668;0;3;Rommetvedt, Mr. Knud Paust;male;61;B19;21:30:27;597
-669;0;3;Cook, Mr. Jacob;male;27;C123;19:13:57;700
-670;1;1;Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright);female;11;C123;17:15:27;684
-671;1;2;Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford);female;38;G9;19:43:14;1703
-672;0;1;Davidson, Mr. Thornton;male;61;E54;14:14:51;889
-673;0;2;Mitchell, Mr. Henry Michael;male;28;C29;22:55:13;695
-674;1;2;Wilhelms, Mr. Charles;male;15;A1446;17:25:50;769
-675;0;2;Watson, Mr. Ennis Hastings;male;4;A1535;19:43:54;615
-676;0;3;Edvardsson, Mr. Gustaf Hjalmar;male;37;G14;18:42:04;632
-677;0;3;Sawyer, Mr. Frederick Charles;male;50;C111;17:49:23;470
-678;1;3;Turja, Miss. Anna Sofia;female;14;A21;19:08:32;693
-679;0;3;Goodwin, Mrs. Frederick (Augusta Tyler);female;56;CT60;19:15:10;522
-680;1;1;Cardeza, Mr. Thomas Drake Martinez;male;56;C10;15:01:23;501
-681;0;3;Peters, Miss. Katie;female;9;A20;22:35:07;692
-682;1;1;Hassab, Mr. Hammad;male;33;G468;19:09:09;1998
-683;0;3;Olsvigen, Mr. Thor Anderson;male;58;G500;17:53:02;744
-684;0;3;Goodwin, Mr. Charles Edward;male;13;B21;18:07:54;590
-685;0;2;Brown, Mr. Thomas William Solomon;male;51;C93;23:07:25;862
-686;0;2;Laroche, Mr. Joseph Philippe Lemercier;male;19;B20;20:22:05;625
-687;0;3;Panula, Mr. Jaako Arnold;male;27;C123;13:04:10;858
-688;0;3;Dakic, Mr. Branko;male;13;C123;17:35:24;647
-689;0;3;Fischer, Mr. Eberhard Thelander;male;56;G10;15:47:48;487
-690;1;1;Madill, Miss. Georgette Alexandra;female;53;E55;22:25:15;682
-691;1;1;Dick, Mr. Albert Adrian;male;56;C30;15:30:10;543
-692;1;3;Karun, Miss. Manca;female;33;A208;12:38:38;673
-693;1;3;Lam, Mr. Ali;male;67;C23 C25 C35;21:34:49;2649
-694;0;3;Saad, Mr. Khalil;male;23;B21;14:21:06;556
-695;0;1;Weir, Col. John;male;50;C92;18:38:00;677
-696;0;2;Chapman, Mr. Charles Henry;male;68;A118;13:34:56;517
-697;0;3;Kelly, Mr. James;male;14;C123;20:58:07;501
-698;1;3;"Mullens, Miss. Katherine ""Katie""";female;33;C123;14:21:49;825
-699;0;1;Thayer, Mr. John Borland;male;16;G10;13:00:11;520
-700;0;3;Humblen, Mr. Adolf Mathias Nicolai Olsen;male;57;E55;14:31:21;477
-701;1;1;Astor, Mrs. John Jacob (Madeleine Talmadge Force);female;58;C30;13:38:45;864
-702;1;1;Silverthorne, Mr. Spencer Victor;male;51;A1624;16:04:50;642
-703;0;3;Barbara, Miss. Saiide;female;7;A1713;17:17:07;721
-704;0;3;Gallagher, Mr. Martin;male;42;G15;19:26:32;1691
-705;0;3;Hansen, Mr. Henrik Juul;male;26;C112;14:08:14;849
-706;0;2;"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")";male;58;A22;15:21:16;864
-707;1;2;"Kelly, Mrs. Florence ""Fannie""";female;62;CT61;12:10:34;830
-708;1;1;Calderhead, Mr. Edward Pennington;male;16;C11;14:49:11;637
-709;1;1;Cleaver, Miss. Alice;female;27;A21;15:31:38;571
-710;1;3;"Moubarek, Master. Halim Gonios (""William George"")";male;25;G532;22:12:32;592
-711;1;1;"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")";female;67;G564;16:25:35;818
-712;0;1;Klaber, Mr. Herman;male;63;B22;20:23:24;505
-713;1;1;Taylor, Mr. Elmer Zebley;male;28;C94;23:52:00;798
-714;0;3;Larsson, Mr. August Viktor;male;22;B21;21:41:57;524
-715;0;2;Greenberg, Mr. Samuel;male;23;C123;12:43:24;1715
-716;0;3;Soholt, Mr. Peter Andreas Lauritz Andersen;male;19;C123;20:09:03;761
-717;1;1;Endres, Miss. Caroline Louise;female;61;G11;22:04:34;755
-718;1;2;"Troutt, Miss. Edwina Celia ""Winnie""";female;27;E56;17:28:42;463
-719;0;3;McEvoy, Mr. Michael;male;3;C31;15:07:32;593
-720;0;3;Johnson, Mr. Malkolm Joackim;male;8;A209;14:20:17;765
-721;1;2;"Harper, Miss. Annie Jessie ""Nina""";female;57;C23 C25 C36;13:19:04;867
-722;0;3;Jensen, Mr. Svend Lauritz;male;40;B22;16:23:57;635
-723;0;2;Gillespie, Mr. William Henry;male;56;C85;12:38:47;528
-724;0;2;Hodges, Mr. Henry Price;male;30;C1;20:11:00;767
-725;1;1;Chambers, Mr. Norman Campbell;male;23;C123;20:00:35;469
-726;0;3;Oreskovic, Mr. Luka;male;37;C23 C25 C34;16:57:19;1967
-727;1;2;Renouf, Mrs. Peter Henry (Lillian Jefferys);female;45;B22;21:13:26;763
-728;1;3;Mannion, Miss. Margareth;female;31;B96 B105;18:24:06;577
-729;0;2;Bryhl, Mr. Kurt Arnold Gottfrid;male;49;B12+H2:H55;18:13:43;866
-730;0;3;Ilmakangas, Miss. Pieta Sofia;female;46;C85;17:50:20;830
-731;1;1;Allen, Miss. Elisabeth Walton;female;68;;13:34:26;748
-732;0;3;Hassan, Mr. Houssein G N;male;27;C123;16:43:58;729
-733;0;2;Knight, Mr. Robert J;male;58;C123;21:10:00;757
-734;0;2;Berriman, Mr. William John;male;58;G9;13:41:03;747
-735;0;2;Troupiansky, Mr. Moses Aaron;male;34;E54;19:42:18;633
-736;0;3;Williams, Mr. Leslie;male;55;C29;23:07:15;517
-737;0;3;Ford, Mrs. Edward (Margaret Ann Watson);female;7;A1446;13:47:02;1512
-738;1;1;Lesurer, Mr. Gustave J;male;7;A1535;21:53:39;520
-739;0;3;Ivanoff, Mr. Kanio;male;21;G14;15:26:04;741
-740;0;3;Nankoff, Mr. Minko;male;17;C111;14:18:21;809
-741;1;1;Hawksford, Mr. Walter James;male;63;A21;13:31:56;845
-742;0;1;Cavendish, Mr. Tyrell William;male;67;CT60;17:06:55;460
-743;1;1;"Ryerson, Miss. Susan Parker ""Suzette""";female;25;C10;13:03:41;864
-744;0;3;McNamee, Mr. Neal;male;25;A20;12:42:13;610
-745;1;3;Stranden, Mr. Juho;male;4;G468;14:11:10;688
-746;0;1;Crosby, Capt. Edward Gifford;male;66;G500;21:01:33;674
-747;0;3;Abbott, Mr. Rossmore Edward;male;64;B21;21:22:05;599
-748;1;2;Sinkkonen, Miss. Anna;female;2;C93;21:15:27;1874
-749;0;1;Marvin, Mr. Daniel Warner;male;29;B20;22:17:59;710
-750;0;3;Connaghton, Mr. Michael;male;9;C123;17:50:44;660
-751;1;2;Wells, Miss. Joan;female;30;C123;12:13:52;824
-752;1;3;Moor, Master. Meier;male;58;G10;12:33:41;582
-753;0;3;Vande Velde, Mr. Johannes Joseph;male;7;E55;15:32:38;476
-754;0;3;Jonkoff, Mr. Lalio;male;13;C30;22:05:16;759
-755;1;2;Herman, Mrs. Samuel (Jane Laver);female;57;A208;14:05:49;617
-756;1;2;Hamalainen, Master. Viljo;male;64;C23 C25 C35;15:10:59;488
-757;0;3;Carlsson, Mr. August Sigfrid;male;50;B21;23:26:44;856
-758;0;2;Bailey, Mr. Percy Andrew;male;36;C93;17:24:48;862
-759;0;3;Theobald, Mr. Thomas Leonard;male;46;B20;15:05:41;2582
-760;1;1;Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards);female;49;C123;13:25:53;719
-761;0;3;Garfirth, Mr. John;male;53;C123;21:03:28;774
-762;0;3;Nirva, Mr. Iisakki Antino Aijo;male;27;G10;12:23:15;601
-763;1;3;Barah, Mr. Hanna Assi;male;31;E55;21:54:09;568
-764;1;1;Carter, Mrs. William Ernest (Lucile Polk);female;64;C30;15:32:56;701
-765;0;3;Eklund, Mr. Hans Linus;male;55;A1624;22:27:48;465
-766;1;1;Hogeboom, Mrs. John C (Anna Andrews);female;50;A1713;21:20:53;732
-767;0;1;Brewe, Dr. Arthur Jackson;male;5;G15;16:15:57;649
-768;0;3;Mangan, Miss. Mary;female;48;C112;12:24:18;620
-769;0;3;Moran, Mr. Daniel J;male;60;A22;23:41:09;601
-770;0;3;Gronnestad, Mr. Daniel Danielsen;male;32;CT61;13:38:38;2367
-771;0;3;Lievens, Mr. Rene Aime;male;69;C11;14:29:00;743
-772;0;3;Jensen, Mr. Niels Peder;male;69;A21;20:43:24;543
-773;0;2;Mack, Mrs. (Mary);female;43;G532;12:54:43;465
-774;0;3;Elias, Mr. Dibo;male;21;G564;15:48:17;532
-775;1;2;Hocking, Mrs. Elizabeth (Eliza Needs);female;23;B22;15:49:50;663
-776;0;3;Myhrman, Mr. Pehr Fabian Oliver Malkolm;male;10;C94;20:57:56;614
-777;0;3;Tobin, Mr. Roger;male;44;B21;21:30:34;600
-778;1;3;Emanuel, Miss. Virginia Ethel;female;7;C123;13:03:39;745
-779;0;3;Kilgannon, Mr. Thomas J;male;49;C123;20:37:03;523
-780;1;1;Robert, Mrs. Edward Scott (Elisabeth Walton McMillan);female;31;G11;12:43:54;555
-781;1;3;Ayoub, Miss. Banoura;female;58;E56;14:04:36;2263
-782;1;1;Dick, Mrs. Albert Adrian (Vera Gillespie);female;50;C31;17:43:46;667
-783;0;1;Long, Mr. Milton Clyde;male;25;A209;18:40:42;868
-784;0;3;Johnston, Mr. Andrew G;male;24;C23 C25 C36;21:52:59;818
-785;0;3;Ali, Mr. William;male;64;B22;20:38:18;469
-786;0;3;Harmer, Mr. Abraham (David Lishin);male;47;C93;12:16:42;821
-787;1;3;Sjoblom, Miss. Anna Sofia;female;49;A119;12:45:30;886
-788;0;3;Rice, Master. George Hugh;male;68;C123;12:22:09;519
-789;1;3;Dean, Master. Bertram Vere;male;31;C123;17:34:16;876
-790;0;1;Guggenheim, Mr. Benjamin;male;20;G11;18:08:29;501
-791;0;3;"Keane, Mr. Andrew ""Andy""";male;65;E56;17:18:07;551
-792;0;2;Gaskell, Mr. Alfred;male;24;C31;20:01:05;2926
-793;0;3;Sage, Miss. Stella Anna;female;33;A1802;23:10:18;608
-794;0;1;Hoyt, Mr. William Fisher;male;48;A1891;14:04:31;569
-795;0;3;Dantcheff, Mr. Ristiu;male;49;G16;17:02:37;681
-796;0;2;Otter, Mr. Richard;male;25;C113;15:12:08;773
-797;1;1;Leader, Dr. Alice (Farnham);female;26;A23;21:57:54;695
-798;1;3;Osman, Mrs. Mara;female;51;CT62;18:47:43;590
-799;0;3;Ibrahim Shawah, Mr. Yousseff;male;57;C12;23:20:27;729
-800;0;3;Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert);female;62;A22;22:17:16;717
-801;0;2;Ponesell, Mr. Martin;male;30;G596;23:06:03;735
-802;1;2;Collyer, Mrs. Harvey (Charlotte Annie Tate);female;29;G628;15:02:32;638
-803;1;1;Carter, Master. William Thornton II;male;9;B23;13:55:13;1794
-804;1;3;Thomas, Master. Assad Alexander;male;33;C95;20:49:54;673
-805;1;3;Hedman, Mr. Oskar Arvid;male;67;B22;22:48:59;810
-806;0;3;Johansson, Mr. Karl Johan;male;3;C123;21:00:40;541
-807;0;1;Andrews, Mr. Thomas Jr;male;51;C123;21:18:44;630
-808;0;3;Pettersson, Miss. Ellen Natalia;female;27;G12;17:00:16;811
-809;0;2;Meyer, Mr. August;male;51;E57;19:02:41;800
-810;1;1;Chambers, Mrs. Norman Campbell (Bertha Griggs);female;22;C32;12:48:00;881
-811;0;3;Alexander, Mr. William;male;8;A210;22:01:27;707
-812;0;3;Lester, Mr. James;male;61;C23 C25 C37;15:46:20;826
-813;0;2;Slemen, Mr. Richard James;male;20;B23;15:11:07;872
-814;0;3;Andersson, Miss. Ebba Iris Alfrida;female;48;C85;14:04:56;2733
-815;0;3;Tomlin, Mr. Ernest Portage;male;60;C1;15:57:51;770
-816;0;1;Fry, Mr. Richard;male;68;C123;18:03:41;809
-817;0;3;Heininen, Miss. Wendla Maria;female;68;C23 C25 C35;14:11:51;808
-818;0;2;Mallet, Mr. Albert;male;49;B23;20:49:16;882
-819;0;3;Holm, Mr. John Fredrik Alexander;male;3;B96 B106;21:06:45;661
-820;0;3;Skoog, Master. Karl Thorsten;male;15;B12+H2:H56;16:05:37;841
-821;1;1;Hays, Mrs. Charles Melville (Clara Jennings Gregg);female;11;C85;18:43:58;636
-822;1;3;Lulic, Mr. Nikola;male;2;;12:11:47;698
-823;0;1;Reuchlin, Jonkheer. John George;male;8;C123;14:38:55;837
-824;1;3;Moor, Mrs. (Beila);female;27;C123;15:35:11;839
-825;0;3;Panula, Master. Urho Abraham;male;34;G10;20:40:33;2466
-826;0;3;Flynn, Mr. John;male;2;E55;18:10:55;880
-827;0;3;Lam, Mr. Len;male;42;C30;12:40:44;612
-828;1;2;Mallet, Master. Andre;male;50;A1624;19:57:15;588
-829;1;3;McCormack, Mr. Thomas Joseph;male;4;A1713;12:38:31;739
-830;1;1;Stone, Mrs. George Nelson (Martha Evelyn);female;19;G15;20:15:10;549
-831;1;3;Yasbeck, Mrs. Antoni (Selini Alexander);female;63;C112;19:17:37;883
-832;1;2;Richards, Master. George Sibley;male;12;A22;18:12:34;532
-833;0;3;Saad, Mr. Amin;male;15;CT61;23:27:34;569
-834;0;3;Augustsson, Mr. Albert;male;59;C11;23:30:23;877
-835;0;3;Allum, Mr. Owen George;male;39;A21;20:30:34;869
-836;1;1;Compton, Miss. Sara Rebecca;female;11;G532;20:18:42;1939
-837;0;3;Pasic, Mr. Jakob;male;22;G564;12:59:33;899
-838;0;3;Sirota, Mr. Maurice;male;43;B22;21:49:59;655
-839;1;3;Chip, Mr. Chang;male;35;C94;23:56:31;829
-840;1;1;Marechal, Mr. Pierre;male;3;B21;17:39:02;828
-841;0;3;Alhomaki, Mr. Ilmari Rudolf;male;54;C123;23:12:05;589
-842;0;2;Mudd, Mr. Thomas Charles;male;39;C123;17:41:50;576
-843;1;1;Serepeca, Miss. Augusta;female;54;G11;12:40:58;641
-844;0;3;Lemberopolous, Mr. Peter L;male;32;E56;23:19:03;492
-845;0;3;Culumovic, Mr. Jeso;male;12;C31;18:02:00;774
-846;0;3;Abbing, Mr. Anthony;male;16;A209;18:51:21;680
-847;0;3;Sage, Mr. Douglas Bullen;male;12;C23 C25 C36;14:40:50;2269
-848;0;3;Markoff, Mr. Marin;male;49;B22;19:21:40;570
-849;0;2;Harper, Rev. John;male;69;C94;12:35:19;749
-850;1;1;Goldenberg, Mrs. Samuel L (Edwiga Grabowska);female;31;B21;17:03:44;806
-851;0;3;Andersson, Master. Sigvard Harald Elias;male;27;C123;13:59:09;710
-852;0;3;Svensson, Mr. Johan;male;27;C123;18:55:54;488
-853;0;3;Boulos, Miss. Nourelain;female;56;G11;18:12:05;801
-854;1;1;Lines, Miss. Mary Conover;female;14;E56;16:26:08;688
-855;0;2;Carter, Mrs. Ernest Courtenay (Lilian Hughes);female;6;C31;12:58:44;579
-856;1;3;Aks, Mrs. Sam (Leah Rosen);female;49;A1802;18:21:12;670
-857;1;1;Wick, Mrs. George Dennick (Mary Hitchcock);female;60;A1891;13:42:46;567
-858;1;1;Daly, Mr. Peter Denis ;male;62;G16;17:21:42;1495
-859;1;3;Baclini, Mrs. Solomon (Latifa Qurban);female;4;C113;20:24:00;777
-860;0;3;Razi, Mr. Raihed;male;2;A23;23:43:23;607
-861;0;3;Hansen, Mr. Claus Peter;male;31;CT62;22:41:12;750
-862;0;2;Giles, Mr. Frederick Edward;male;58;C12;19:31:05;676
-863;1;1;Swift, Mrs. Frederick Joel (Margaret Welles Barron);female;42;A22;15:23:15;817
-864;0;3;"Sage, Miss. Dorothy Edith ""Dolly""";female;14;G596;23:39:38;824
-865;0;2;Gill, Mr. John William;male;27;G628;23:27:41;557
-866;1;2;Bystrom, Mrs. (Karolina);female;27;B23;12:45:33;460
-867;1;2;Duran y More, Miss. Asuncion;female;67;C95;13:21:11;721
-868;0;1;Roebling, Mr. Washington Augustus II;male;21;B22;22:20:09;554
-869;0;3;van Melkebeke, Mr. Philemon;male;32;C123;18:07:16;1620
-870;1;3;Johnson, Master. Harold Theodor;male;40;C123;13:45:01;489
-871;0;3;Balkic, Mr. Cerin;male;28;G12;14:18:17;639
-872;1;1;Beckwith, Mrs. Richard Leonard (Sallie Monypeny);female;60;E57;17:35:52;743
-873;0;1;Carlsson, Mr. Frans Olof;male;9;C32;17:37:49;849
-874;0;3;Vander Cruyssen, Mr. Victor;male;62;A210;17:44:48;631
-875;1;2;Abelson, Mrs. Samuel (Hannah Wizosky);female;49;C23 C25 C37;18:07:01;686
-876;1;3;"Najib, Miss. Adele Kiamie ""Jane""";female;65;B23;13:53:16;608
-877;0;3;Gustafsson, Mr. Alfred Ossian;male;61;C94;20:43:29;525
-878;0;3;Petroff, Mr. Nedelio;male;6;A120;12:11:30;616
-879;0;3;Laleff, Mr. Kristo;male;13;C123;13:31:40;725
-880;1;1;Potter, Mrs. Thomas Jr (Lily Alexenia Wilson);female;14;C123;21:49:25;2818
-881;1;2;Shelley, Mrs. William (Imanita Parrish Hall);female;70;G12;20:23:52;824
-882;0;3;Markun, Mr. Johann;male;35;E57;20:54:54;510
-883;0;3;Dahlberg, Miss. Gerda Ulrika;female;16;C32;13:05:54;885
-884;0;2;Banfield, Mr. Frederick James;male;34;A1980;17:48:53;466
-885;0;3;Sutehall, Mr. Henry Jr;male;36;A2069;15:09:01;867
-886;0;3;Rice, Mrs. William (Margaret Norton);female;22;G17;22:57:33;705
-887;0;2;Montvila, Rev. Juozas;male;14;C114;14:57:32;799
-888;1;1;Graham, Miss. Margaret Edith;female;5;A24;22:29:41;698
-889;0;3;"Johnston, Miss. Catherine Helen ""Carrie""";female;28;CT63;13:28:26;522
-890;1;1;Behr, Mr. Karl Howell;male;7;C13;15:16:20;603
-891;0;3;Dooley, Mr. Patrick;male;28;A23;14:15:48;2256
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
