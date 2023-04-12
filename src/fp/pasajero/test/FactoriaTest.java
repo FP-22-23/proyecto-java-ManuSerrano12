@@ -14,14 +14,14 @@ public class FactoriaTest {
 	}
 		private static void testLecturaFactoria(String fichero) {
 			System.out.println("Test de los pasajeros del Titanic: ");
-			List<Pasajero> pasajero = Factoria.leePasajero(fichero); 
+			List<Pasajero> pasajero = Factoria.leePasajero(fichero);
 			System.out.println("\nPasajeros del Titanic: "+ pasajero);
 		}
 		private static void testLecturaFactoria2(String fichero) {
 			System.out.println("Test de los pasajeros del Titanic: ");
 			Pasajeros pasajero = Factoria.leePasajero2(fichero);
 			System.out.println("\nPasajeros del Titanic: " + pasajero);
-			System.out.println("\nPasajeros del Titanic: " + pasajero);
+
 		}
 
 }

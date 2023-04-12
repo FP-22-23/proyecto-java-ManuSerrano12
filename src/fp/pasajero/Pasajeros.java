@@ -28,6 +28,12 @@ public interface Pasajeros {
 
 	void eliminarPasajero(int n);
 
+	Double getCosteTotal();
+
+	Boolean existePasajeroPorEdad(Integer age);
+
+	List<String> getPasajerosVivos();
+
 	//Boolean existePartidaDondeRivalesMatadosDeUnEquipoSupere(Equipo equipo, Integer rivales_matados);
 
 	//Integer cantidadOroEquipoConMasOroPorRango(Rango rango, Equipo equipo);
