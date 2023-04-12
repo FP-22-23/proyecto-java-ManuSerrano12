@@ -9,18 +9,19 @@ public class FactoriaTest {
 	public static void main(String[] args) {
 
 		
-		testLecturaFactoria("./data/Titanic.csv");
+		testLecturaFactoria2("./data/Titanic.csv");
 		
 	}
 		private static void testLecturaFactoria(String fichero) {
 			System.out.println("Test de los pasajeros del Titanic: ");
 			List<Pasajero> pasajero = Factoria.leePasajero(fichero); 
-			System.out.println("Pasajeros del Titanic: "+ pasajero);
+			System.out.println("\nPasajeros del Titanic: "+ pasajero);
 		}
-		private static void testLeturaFactoria2(String fichero) {
+		private static void testLecturaFactoria2(String fichero) {
 			System.out.println("Test de los pasajeros del Titanic: ");
 			Pasajeros pasajero = Factoria.leePasajero2(fichero);
-			System.out.println("Pasajeros del Titanic: " + pasajero);
+			System.out.println("\nPasajeros del Titanic: " + pasajero);
+			System.out.println("\nPasajeros del Titanic: " + pasajero);
 		}
 
 }
