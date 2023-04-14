@@ -31,12 +31,29 @@ public class ContenedorPasajero implements Pasajeros{
 	
 	
 	//METODOS
+	
+	//Añadir un elemento.
+	@Override
+	public Integer getNumeroPasajeros() {
+		// TODO Auto-generated method stub
+		return passenger.size();
+	}
+	
+	
 	//Añade un pasajero
 	public void añadirPasajero(Pasajero persona) {
 		passenger.add(persona);
 	}
+
+	//Añadir una colección de elementos.
+	@Override
+	public void añadirCollecionPasajero(Collection<Pasajero> p) {
+		this.passenger.addAll(p);
+		
+	}
+
 	
-	//Borra un pasajero
+	//Eliminar un elemento
 	public void eliminarPasajero(Pasajero persona) {
 		if(!passenger.contains(persona)) {
             throw new IllegalArgumentException("El pasajero no existe");
@@ -44,6 +61,13 @@ public class ContenedorPasajero implements Pasajeros{
           else {
         		passenger.remove(persona);
         }	
+	}
+	
+	
+	@Override
+	public List<Pasajero> getPasajero() {
+		// TODO Auto-generated method stub
+		return passenger;
 	}
 	
 	
@@ -109,9 +133,9 @@ public class ContenedorPasajero implements Pasajeros{
 		return res;
 	}
 	
-	//4.- MAP EN EL QUE LAS CLAVES SON UNA PROPIEDAD DEL TIPO BASE Y LOS VALORES UNA COLECCIÓN
+	//4.- MAP EN EL QUE LAS CLAVES SON UNA PROPIEDAD DEL TIPO BASE Y LOS VALORES UNA LISTA
 	
-	public Map <Integer, List <String>> agrupaJugadoresPorEquipo(){
+	public Map <Integer, List <String>> agrupaPasajerosPorClases(){
 		Map <Integer, List <String>> res = new HashMap<>();
 		for (Pasajero a: this.passenger) {
 			if (!res.containsKey(a.getPclass())) {
@@ -146,37 +170,6 @@ public class ContenedorPasajero implements Pasajeros{
 			res1.put(a.getSex(), res.get(a.getSex()).size());
 		}
 		return res1;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	@Override
-	public List<Pasajero> getPasajero() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public Integer getNumeroPasajeros() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	@Override
-	public void añadirCollecionPasajero(Collection<Pasajero> p) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void eliminarPasajero(int n) {
-		// TODO Auto-generated method stub
-		
 	}
 	
 	

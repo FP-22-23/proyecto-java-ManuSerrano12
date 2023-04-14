@@ -2,6 +2,7 @@ package fp.pasajero;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
 
 public interface Pasajeros {
 
@@ -26,24 +27,12 @@ public interface Pasajeros {
 	//	Eliminar un elemento.
 	void eliminarPasajero(Pasajero p);
 
-	void eliminarPasajero(int n);
-
-	Double getCosteTotal();
-
-	Boolean existePasajeroPorEdad(Integer age);
-
-	List<String> getPasajerosVivos();
-
-	//Boolean existePartidaDondeRivalesMatadosDeUnEquipoSupere(Equipo equipo, Integer rivales_matados);
-
-	//Integer cantidadOroEquipoConMasOroPorRango(Rango rango, Equipo equipo);
-
-	//Map<Rango, List<Partida>> agruparPartidasPorRango();
-
-	//SortedMap<Month,Integer> contarPartidasPorMeses();
-
 	
-
-	//Double mediaRivalesMatadosPorEquipoYRango(Rango rango, Equipo equipo);
+	//TRATAMIENTOS SECUENCIALES:
+	Double getCosteTotal();
+	Boolean existePasajeroPorEdad(Integer age);
+	List<String> getPasajerosVivos();
+	Map <Integer, List <String>> agrupaPasajerosPorClases();
+	Map<Genero, Integer> numeroPasajerosPorSexo();
 
 }
