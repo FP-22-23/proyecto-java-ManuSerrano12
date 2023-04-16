@@ -77,16 +77,7 @@ public class Factoria{
 			return lista;
 		}
 		
-		public static ContenedorPasajero leePasajero4(String rutaFichero) {
-			Stream<Pasajero> res = null;
-			try {
-				res = Files.lines(Paths.get(rutaFichero)).skip(1).map(Factoria::parsearPasajero);
-			} catch(IOException e) {
-				e.printStackTrace();
-			}
-			return new ContenedorPasajero(res);
-		}
-		
+ 
 		
 }
 

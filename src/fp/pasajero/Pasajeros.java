@@ -34,5 +34,6 @@ public interface Pasajeros {
 	List<String> getPasajerosVivos();
 	Map <Integer, List <String>> agrupaPasajerosPorClases();
 	Map<Genero, Integer> numeroPasajerosPorSexo();
-
+ 
+	
 }

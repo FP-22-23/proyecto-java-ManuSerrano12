@@ -33,7 +33,7 @@ public class ContenedorTest {
 	private static void testNumeroPasajerosPorSexo(Pasajeros cn) {
 		System.out.println("\nAgrupa y cuenta los pasajeros según su género: " + cn.numeroPasajerosPorSexo());
 	}
-	
+	 
 	
 	}
 
