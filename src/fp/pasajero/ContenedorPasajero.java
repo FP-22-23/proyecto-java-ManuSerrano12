@@ -1,13 +1,16 @@
 package fp.pasajero;
 
+import java.time.Month;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 
@@ -21,14 +24,12 @@ public class ContenedorPasajero implements Pasajeros{
 	public ContenedorPasajero() {
 		passenger = new ArrayList<Pasajero>();
 	}
-	public ContenedorPasajero(Stream<Pasajero> passenger) {
-		this.passenger = passenger.collect(Collectors.toList());
-	}
 	public ContenedorPasajero(Collection<Pasajero> passenger) {
 		this.passenger = new ArrayList<Pasajero>(passenger);
 	}
-
-	
+		public ContenedorPasajero(Stream<Pasajero> passenger) {
+		this.passenger = passenger.collect(Collectors.toList());
+	}
 	
 	//METODOS
 	
@@ -77,6 +78,7 @@ public class ContenedorPasajero implements Pasajeros{
 	public int hashCode() {
 		return Objects.hash(passenger);
 	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -173,6 +175,44 @@ public class ContenedorPasajero implements Pasajeros{
 	}
 	
 	
+	//ENTREGA 3
+	//Bloque 1
+	public Boolean existePasajeroPorEdadSTREAM(Integer age) {
+		return getPasajero().stream()
+				.anyMatch(x -> x.getAge().equals(age));
+	}
+	public Integer getCosteTotalSTREAM() {
+		return getPasajero().stream()
+				.mapToInt(x -> x.getTicketCost()).sum();
+	}
+	public List<String> getPasajerosVivosSTREAM() {
+		return getPasajero().stream()
+				.filter(x -> x.getSurvived().equals(true)).map(x -> x.getName()).collect(Collectors.toList());
+	}
+	public Pasajero maxPasajeroPorCosteTicketYSurvivedSTREAM() {
+		return getPasajero().stream()
+				.filter(x -> x.getSurvived().equals(true))
+				.max(Comparator.comparing(Pasajero::getTicketCost))
+				.get();
+	}
+	public List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM() {
+		return getPasajero().stream()
+				.filter(x -> x.getSurvived().equals(true)).sorted(Comparator.comparing(Pasajero::getAge)).collect(Collectors.toList());
+	}
+	
+	//Bloque 2
+	public Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM(){
+		return getPasajero().stream()
+				.collect(Collectors.groupingBy(
+						Pasajero::getPclass, Collectors.mapping(Pasajero::getName, Collectors.toList())));		
+	}
+	
+	public Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM(){
+		return getPasajero().stream()
+				.collect(Collectors.groupingBy(
+						Pasajero::getSex, Collectors.mapping(Pasajero::getAge, Collectors.toList())));		
+	}
+
 	 
 
 }

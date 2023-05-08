@@ -10,6 +10,7 @@ public class FactoriaTest {
 
 		
 		testLecturaFactoria2("./data/Titanic.csv");
+		testLecturaFactoria("./data/Titanic.csv");
 		
 	}
 		private static void testLecturaFactoria(String fichero) {

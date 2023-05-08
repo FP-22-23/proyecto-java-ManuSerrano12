@@ -34,6 +34,13 @@ public interface Pasajeros {
 	List<String> getPasajerosVivos();
 	Map <Integer, List <String>> agrupaPasajerosPorClases();
 	Map<Genero, Integer> numeroPasajerosPorSexo();
+	Boolean existePasajeroPorEdadSTREAM(Integer age);
+	Integer  getCosteTotalSTREAM();
+	List<String> getPasajerosVivosSTREAM();
+	Pasajero maxPasajeroPorCosteTicketYSurvivedSTREAM();
+	List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM();
+	Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM();
+	Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM();
  
 	
 }

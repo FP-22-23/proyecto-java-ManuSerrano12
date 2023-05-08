@@ -8,6 +8,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fp.utiles.Checkers;
@@ -38,6 +39,7 @@ public class Factoria{
 		return res;
 		
 	}
+	
 	
 		private static Pasajero parsearPasajero(String linea) {
 			String[] trozos=linea.split(";");
