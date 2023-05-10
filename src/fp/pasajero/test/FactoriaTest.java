@@ -14,7 +14,7 @@ public class FactoriaTest {
 		
 	}
 		private static void testLecturaFactoria(String fichero) {
-			System.out.println("Test de los pasajeros del Titanic: ");
+			System.out.println("\nTest de los pasajeros del Titanic: ");
 			List<Pasajero> pasajero = Factoria.leePasajero(fichero);
 			System.out.println("\nPasajeros del Titanic: "+ pasajero);
 		}

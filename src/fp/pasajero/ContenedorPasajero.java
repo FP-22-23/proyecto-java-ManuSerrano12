@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.SortedMap;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -212,7 +214,42 @@ public class ContenedorPasajero implements Pasajeros{
 				.collect(Collectors.groupingBy(
 						Pasajero::getSex, Collectors.mapping(Pasajero::getAge, Collectors.toList())));		
 	}
-
+	public Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM(){
+		return getPasajero().stream()
+				.collect(Collectors.groupingBy(Pasajero::getAge,
+	                    Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparingInt(Pasajero::getTicketCost)), x -> x.get())));
+	}
+	public SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGenero(Integer n){
+		return getPasajero().stream()
+				.collect(Collectors.groupingBy(
+						Pasajero::getSex,
+						TreeMap::new,
+						Collectors.collectingAndThen(
+								Collectors.toList(), 
+								t -> fAux(t, n))));
+	}
+	
+	private static List<String> fAux(List<Pasajero> l, Integer n){
+		return l.stream()
+				.sorted(Comparator.comparing(Pasajero::getBoardingTime))
+				.limit(n)
+				.map(Pasajero::getName)
+				.collect(Collectors.toList());
+	}
+	
+	public Genero getPasajeroMayorNumeroTiroteosFatales() {
+		Map<Genero, Integer> m = getPasajero().stream()
+												.collect(Collectors.groupingBy(
+														Pasajero::getSex, 
+														Collectors.collectingAndThen(
+																Collectors.counting(), 
+																l -> l.intValue())));
+		return m.entrySet().stream()
+					.max(Comparator.comparing(entry -> entry.getValue()))
+					.get()
+					.getKey();
+		
+	}
 	 
 
 }

@@ -3,6 +3,7 @@ package fp.pasajero;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.SortedMap;
 
 public interface Pasajeros {
 
@@ -41,6 +42,9 @@ public interface Pasajeros {
 	List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM();
 	Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM();
 	Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM();
+	Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM();
+	SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGenero(Integer n);
+	Genero getPasajeroMayorNumeroTiroteosFatales();
  
 	
 }

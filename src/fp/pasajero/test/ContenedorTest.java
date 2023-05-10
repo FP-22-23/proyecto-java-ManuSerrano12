@@ -5,6 +5,7 @@ import java.util.Map;
 
 import fp.pasajero.Factoria;
 import fp.pasajero.Genero;
+import fp.pasajero.Pasajero;
 import fp.pasajero.Pasajeros;
 
 public class ContenedorTest {
@@ -26,6 +27,9 @@ public class ContenedorTest {
 		testFiltradoPorSurvivedOrdenadoPorEdadSTREAM(pasajero);
 		testAgrupaPasajerosPorClasesSTREAM(pasajero) ;
 		testAgruparRopasPorEdadSTREAM(pasajero);
+		testAgruparMaxCostePasajeroPorEdadSTREAM(pasajero);
+		testGetNPrimerosPasajerosPorGeneroSTREAM(pasajero);
+		testGetPasajeroMayorNumeroTiroteosFatalesSTREAM(pasajero);
 	}
 
 	private static void testExistePasajeroPorEdad(Pasajeros pasajero, Integer age) {
@@ -69,5 +73,16 @@ public class ContenedorTest {
 	private static void testAgruparRopasPorEdadSTREAM(Pasajeros pasajero) {
 		System.out.println("\nAgrupa la edad de los pasajeros segun el genero: " + pasajero.agruparRopasPorEdadSTREAM());
 	}
+
+	private static void testAgruparMaxCostePasajeroPorEdadSTREAM(Pasajeros pasajero) {
+		System.out.println("\nMap con clave la edad de un pasajero y valor el pasajero de esa misma edad que mas gasto en su ticket: " + pasajero.agruparMaxPasajeroPorEdadSTREAM());
+	}
+	private static void testGetNPrimerosPasajerosPorGeneroSTREAM(Pasajeros pasajero) {
+		System.out.println("\nMuestra las N primeras personas que abordaron el barco seguun el genero y ordenadas: " + pasajero.getNPrimerosPasajerosPorGenero(2));
+	}
+	private static void testGetPasajeroMayorNumeroTiroteosFatalesSTREAM(Pasajeros pasajero) {
+		System.out.println("\nEn el barco viajaban un mayor numero de: " + pasajero.getPasajeroMayorNumeroTiroteosFatales());
+	}
+	
 	}
 
