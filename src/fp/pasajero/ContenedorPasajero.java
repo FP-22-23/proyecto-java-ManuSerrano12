@@ -179,47 +179,65 @@ public class ContenedorPasajero implements Pasajeros{
 	
 	//ENTREGA 3
 	//Bloque 1
+	
+	// 1.- EXISTE (stream)
 	public Boolean existePasajeroPorEdadSTREAM(Integer age) {
 		return getPasajero().stream()
 				.anyMatch(x -> x.getAge().equals(age));
 	}
+	
+	// 2.- SUMA (stream)
 	public Integer getCosteTotalSTREAM() {
 		return getPasajero().stream()
 				.mapToInt(x -> x.getTicketCost()).sum();
 	}
+	
+	// 3.- FILTRADO (stream)
 	public List<String> getPasajerosVivosSTREAM() {
 		return getPasajero().stream()
 				.filter(x -> x.getSurvived().equals(true)).map(x -> x.getName()).collect(Collectors.toList());
 	}
+	
+	// 4.- MAXIMO CON FILTRADO
 	public Pasajero maxPasajeroPorCosteTicketYSurvivedSTREAM() {
 		return getPasajero().stream()
 				.filter(x -> x.getSurvived().equals(true))
 				.max(Comparator.comparing(Pasajero::getTicketCost))
 				.get();
 	}
+	
+	// 5.- SELECCION CON FILTRADO Y SELECCION
 	public List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM() {
 		return getPasajero().stream()
 				.filter(x -> x.getSurvived().equals(true)).sorted(Comparator.comparing(Pasajero::getAge)).collect(Collectors.toList());
 	}
 	
+	
 	//Bloque 2
+	
+	//6.- MAP EN EL QUE LAS CLAVES SON UNA PROPIEDAD DEL TIPO BASE Y LOS VALORES UNA LISTA (stream)
 	public Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM(){
 		return getPasajero().stream()
 				.collect(Collectors.groupingBy(
 						Pasajero::getPclass, Collectors.mapping(Pasajero::getName, Collectors.toList())));		
 	}
 	
+	// 7.- USO DE groupingBy
 	public Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM(){
 		return getPasajero().stream()
 				.collect(Collectors.groupingBy(
 						Pasajero::getSex, Collectors.mapping(Pasajero::getAge, Collectors.toList())));		
 	}
+	
+	// 8.- MAP CON ATRIBUTO COMO CLAVE Y VALORES COMO VALOR MAXIMO
 	public Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM(){
 		return getPasajero().stream()
 				.collect(Collectors.groupingBy(Pasajero::getAge,
 	                    Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparingInt(Pasajero::getTicketCost)), x -> x.get())));
 	}
-	public SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGenero(Integer n){
+	
+	// 9.- SORTED MAP CON ATRIBUTO COMO CLAVE Y VALOR CON LISTA DE n MEJORES VALORES
+	public SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGeneroSTREAM(Integer n){
 		return getPasajero().stream()
 				.collect(Collectors.groupingBy(
 						Pasajero::getSex,
@@ -228,23 +246,23 @@ public class ContenedorPasajero implements Pasajeros{
 								Collectors.toList(), 
 								t -> fAux(t, n))));
 	}
-	
-	private static List<String> fAux(List<Pasajero> l, Integer n){
-		return l.stream()
+	private static List<String> fAux(List<Pasajero> lista, Integer n){
+		return lista.stream()
 				.sorted(Comparator.comparing(Pasajero::getBoardingTime))
 				.limit(n)
 				.map(Pasajero::getName)
 				.collect(Collectors.toList());
 	}
 	
-	public Genero getPasajeroMayorNumeroTiroteosFatales() {
-		Map<Genero, Integer> m = getPasajero().stream()
+	// 10.- MAXIMO DE UN MAP
+	public Genero getMayorNumeroDeGeneroABordoSTREAM() {
+		Map<Genero, Integer> map = getPasajero().stream()
 												.collect(Collectors.groupingBy(
 														Pasajero::getSex, 
 														Collectors.collectingAndThen(
 																Collectors.counting(), 
 																l -> l.intValue())));
-		return m.entrySet().stream()
+		return map.entrySet().stream()
 					.max(Comparator.comparing(entry -> entry.getValue()))
 					.get()
 					.getKey();

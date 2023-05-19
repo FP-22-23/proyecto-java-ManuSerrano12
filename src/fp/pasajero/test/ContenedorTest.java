@@ -14,21 +14,25 @@ public class ContenedorTest {
 		// TODO Auto-generated method stub
 		Pasajeros pasajero = Factoria.leePasajero2("./data/Titanic.csv");
 		
-		
+		//ENTREGA 2
 		testExistePasajeroPorEdad(pasajero, 22);
 		testGetCosteTotal(pasajero);
 		testGetPasajerosVivos(pasajero);
 		testAgrupaPasajerosPorClases(pasajero);
 		testNumeroPasajerosPorSexo(pasajero);
+		
+		//ENTREGA 3 Bloque I
 		testExistePasajeroPorEdadSTREAM(pasajero,22);
 		testGetCosteTotalSTREAM(pasajero);
 		testGetPasajerosVivosSTREAM(pasajero);
 		testMaxPasajeroPorCosteTicketYSurvivedSTREAM(pasajero);
 		testFiltradoPorSurvivedOrdenadoPorEdadSTREAM(pasajero);
+		
+		//Bloque II
 		testAgrupaPasajerosPorClasesSTREAM(pasajero) ;
 		testAgruparRopasPorEdadSTREAM(pasajero);
 		testAgruparMaxCostePasajeroPorEdadSTREAM(pasajero);
-		testGetNPrimerosPasajerosPorGeneroSTREAM(pasajero);
+		testGetNPrimerosPasajerosPorGeneroSTREAM(pasajero,2);
 		testGetPasajeroMayorNumeroTiroteosFatalesSTREAM(pasajero);
 	}
 
@@ -48,10 +52,11 @@ public class ContenedorTest {
 		System.out.println("\nAgrupa y cuenta los pasajeros según su género: " + pasajero.numeroPasajerosPorSexo());
 	}
 	
+	
 	//ENTREGA 3
 	//Bloque 1
 	private static void testExistePasajeroPorEdadSTREAM(Pasajeros pasajero,Integer age) {
-		System.out.println("\nENTREGA 3\n\nBloque 1\nHubo algun pasajero con " + age + " años? : " + pasajero.existePasajeroPorEdadSTREAM(age));
+		System.out.println("\nENTREGA 3\nBLOQUE I\nHubo algun pasajero con " + age + " años? : " + pasajero.existePasajeroPorEdadSTREAM(age));
 	}
 	private static void testGetCosteTotalSTREAM(Pasajeros pasajero) {
 		System.out.println("\nLa suma de todo el coste es de: " + pasajero.getCosteTotalSTREAM() + "€");
@@ -68,20 +73,20 @@ public class ContenedorTest {
 	
 	//Bloque 2
 	private static void testAgrupaPasajerosPorClasesSTREAM(Pasajeros pasajero) {
-		System.out.println("\nBloque 2\nAgrupa pasajeros por clases (P Class): " + pasajero.agrupaPasajerosPorClasesSTREAM());
+		System.out.println("\nBLOQUE II\nAgrupa pasajeros por clases (P Class): " + pasajero.agrupaPasajerosPorClasesSTREAM());
 	}
 	private static void testAgruparRopasPorEdadSTREAM(Pasajeros pasajero) {
 		System.out.println("\nAgrupa la edad de los pasajeros segun el genero: " + pasajero.agruparRopasPorEdadSTREAM());
 	}
 
 	private static void testAgruparMaxCostePasajeroPorEdadSTREAM(Pasajeros pasajero) {
-		System.out.println("\nMap con clave la edad de un pasajero y valor el pasajero de esa misma edad que mas gasto en su ticket: " + pasajero.agruparMaxPasajeroPorEdadSTREAM());
+		System.out.println("\nPasajeros por edad que mas gastaron en su ticket: " + pasajero.agruparMaxPasajeroPorEdadSTREAM());
 	}
-	private static void testGetNPrimerosPasajerosPorGeneroSTREAM(Pasajeros pasajero) {
-		System.out.println("\nMuestra las N primeras personas que abordaron el barco seguun el genero y ordenadas: " + pasajero.getNPrimerosPasajerosPorGenero(2));
+	private static void testGetNPrimerosPasajerosPorGeneroSTREAM(Pasajeros pasajero, Integer n) {
+		System.out.println("\nMuestra las N primeras personas que abordaron el barco seguun el genero y ordenadas: " + pasajero.getNPrimerosPasajerosPorGeneroSTREAM(n));
 	}
 	private static void testGetPasajeroMayorNumeroTiroteosFatalesSTREAM(Pasajeros pasajero) {
-		System.out.println("\nEn el barco viajaban un mayor numero de: " + pasajero.getPasajeroMayorNumeroTiroteosFatales());
+		System.out.println("\nEn el barco viajaban un mayor numero de: " + pasajero.getMayorNumeroDeGeneroABordoSTREAM());
 	}
 	
 	}

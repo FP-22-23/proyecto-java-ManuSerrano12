@@ -30,11 +30,15 @@ public interface Pasajeros {
 
 	
 	//TRATAMIENTOS SECUENCIALES:
+	
+	//ENTREGA I
 	Double getCosteTotal();
 	Boolean existePasajeroPorEdad(Integer age);
 	List<String> getPasajerosVivos();
 	Map <Integer, List <String>> agrupaPasajerosPorClases();
 	Map<Genero, Integer> numeroPasajerosPorSexo();
+	
+	//ENTREGA II
 	Boolean existePasajeroPorEdadSTREAM(Integer age);
 	Integer  getCosteTotalSTREAM();
 	List<String> getPasajerosVivosSTREAM();
@@ -43,8 +47,8 @@ public interface Pasajeros {
 	Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM();
 	Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM();
 	Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM();
-	SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGenero(Integer n);
-	Genero getPasajeroMayorNumeroTiroteosFatales();
+	SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGeneroSTREAM(Integer n);
+	Genero getMayorNumeroDeGeneroABordoSTREAM();
  
 	
 }
