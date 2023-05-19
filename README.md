@@ -76,38 +76,50 @@ En el tipo base del proyecto (pasajeros.java), se declaran las propiedades bási
 Este proyecto, cuenta con un tipo Enumerate llamado Genero, que cuenta con 2 propiedades: MALE, FEMALE..
 
 ### Factoría
-Descripción breve de la factoría.
+La factoria se encarga de parsear los diferentes datos del csv para luego pasarlo por una funcion que los lee y muestra por consola.
 
-- _método 1_: Descripción del método 1.
--	_método 2_: Descripción del método 2.
+- List<Pasajero> leePasajero(String rutaFichero): Engargado de leer el csv y pasarlo por consola.
+-	Pasajero parsearPasajero(String linea): Encargado de parsear los datos del csv.
+-	Boolean parseaBooleano(Integer a): Encargado de parsear los Booleanos.
+-	List<String> parseLista(String cadena): Encargado de parsear las Listas.
 
 ### Tipo Contenedor
 
-Descripción breve del tipo contenedor.
+En el contenedor encontramos todas las funciones las cuales se encargan de jugar con los diferentes datos para mostrar variedades de soluciones y respuestas a diferentes problemas que se puedan plantear.
 
 **Propiedades**:
 
-- _propiedad1_, de tipo \<Tipo1\>, consultable. 
-- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
-- ...
-- 
+- passenger, de tipo \<List<Pasajero>\>, consultable. 
+
 **Constructores**: 
 
-- C1: Descripción del constructor 1.
-- C2: Descripción del constructor 2.
-- ...
+- ContenedorPasajero(): Constructor vacio que crea una lista vacia.
+- ContenedorPasajero(Collection<Pasajero> passenger): Constructor que introduce un collection el cual pasa los datos recibidos a una lista.
+- ContenedorPasajero(Stream<Pasajero> passenger): Constructor que introduce un stream el cual pasa los datos recibidos a una lista.
 
-**Restricciones**:
- 
-- R1: Descripción de la restricción 1.
-- R2: Descripción de la restricción 2.
-- ...
-- 
-**Criterio de igualdad**: Describir el criterio de igualdad
-
-**Criterio de ordenación**: Describir el criterio de ordenación (si lo hay).
+	
+**Criterio de igualdad**: Igualdad segun passenger.
 
 **Otras operaciones**:
  
--	_método 1_: Descripción del método 1.
-- ...
+ENTREGA II
+-	Double getCosteTotal(): Nos devuelve el precio total de todos los tickets.
+-	Boolean existePasajeroPorEdad(Integer age): Nos dice si existe algun pasajero con la edad que le damos.
+-	List<String> getPasajerosVivos(): Nos devuelve una lista con los pasajeros que sobrevivieron.
+-	Map <Integer, List <String>> agrupaPasajerosPorClases(): Map que agrupa los diferentes pasajeros segun la clase en la que viajaban.
+-	Map<Genero, Integer> numeroPasajerosPorSexo(): Map con el numero de pasajeros que viajaba de cada sexo.
+	
+ENTREGA III
+	BLOQUE I
+-	Boolean existePasajeroPorEdadSTREAM(Integer age): Nos dice si existe algun pasajero con la edad que le damos haciendo uso de .stream() .
+-	Integer  getCosteTotalSTREAM(): Nos devuelve el precio total de todos los tickets haciendo uso de .stream() .
+-	List<String> getPasajerosVivosSTREAM(): Nos devuelve una lista con los pasajeros que sobrevivieron haciendo uso de .stream() .
+-	Pasajero maxPasajeroPorCosteTicketYSurvivedSTREAM(): Pasajero que sobrevivio y mas gasto en su ticket.
+-	List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM(): Lista ordenada por edad de pasajeros que sobrevivieron.
+	
+	BLOQUE II
+-	Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM(): Agrupa los pasajeros por clases.
+-	Map <Genero, List<Integer>> agruparEdadSegunGeneroSTREAM(): Crea un map con el genero como clave y una lista con la edad de todos los pasajeros de ese genero. .
+-	Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM(): Pasajero por edad que gasto mas en su ticket.
+-	SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGeneroSTREAM(Integer n): N pasajeros segun genero que entraron primero en el barco.
+-	Genero getMayorNumeroDeGeneroABordoSTREAM(): Devuelve el genero del mayor numero de pasajeros de ese mismo genero.
