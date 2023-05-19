@@ -30,7 +30,7 @@ public class ContenedorTest {
 		
 		//Bloque II
 		testAgrupaPasajerosPorClasesSTREAM(pasajero) ;
-		testAgruparRopasPorEdadSTREAM(pasajero);
+		testAgruparEdadSegunGeneroSTREAM(pasajero);
 		testAgruparMaxCostePasajeroPorEdadSTREAM(pasajero);
 		testGetNPrimerosPasajerosPorGeneroSTREAM(pasajero,2);
 		testGetPasajeroMayorNumeroTiroteosFatalesSTREAM(pasajero);
@@ -75,8 +75,8 @@ public class ContenedorTest {
 	private static void testAgrupaPasajerosPorClasesSTREAM(Pasajeros pasajero) {
 		System.out.println("\nBLOQUE II\nAgrupa pasajeros por clases (P Class): " + pasajero.agrupaPasajerosPorClasesSTREAM());
 	}
-	private static void testAgruparRopasPorEdadSTREAM(Pasajeros pasajero) {
-		System.out.println("\nAgrupa la edad de los pasajeros segun el genero: " + pasajero.agruparRopasPorEdadSTREAM());
+	private static void testAgruparEdadSegunGeneroSTREAM(Pasajeros pasajero) {
+		System.out.println("\nAgrupa la edad de los pasajeros segun el genero: " + pasajero.agruparEdadSegunGeneroSTREAM());
 	}
 
 	private static void testAgruparMaxCostePasajeroPorEdadSTREAM(Pasajeros pasajero) {

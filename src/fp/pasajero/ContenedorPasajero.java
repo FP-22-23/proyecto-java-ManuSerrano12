@@ -223,7 +223,7 @@ public class ContenedorPasajero implements Pasajeros{
 	}
 	
 	// 7.- USO DE groupingBy
-	public Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM(){
+	public Map <Genero, List<Integer>> agruparEdadSegunGeneroSTREAM(){
 		return getPasajero().stream()
 				.collect(Collectors.groupingBy(
 						Pasajero::getSex, Collectors.mapping(Pasajero::getAge, Collectors.toList())));		

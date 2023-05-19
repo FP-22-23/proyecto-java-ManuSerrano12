@@ -45,7 +45,7 @@ public interface Pasajeros {
 	Pasajero maxPasajeroPorCosteTicketYSurvivedSTREAM();
 	List<Pasajero> filtradoPorSurvivedOrdenadoPorEdadSTREAM();
 	Map <Integer, List <String>> agrupaPasajerosPorClasesSTREAM();
-	Map <Genero, List<Integer>> agruparRopasPorEdadSTREAM();
+	Map <Genero, List<Integer>> agruparEdadSegunGeneroSTREAM();
 	Map <Integer, Pasajero> agruparMaxPasajeroPorEdadSTREAM();
 	SortedMap<Genero, List<String>> getNPrimerosPasajerosPorGeneroSTREAM(Integer n);
 	Genero getMayorNumeroDeGeneroABordoSTREAM();
